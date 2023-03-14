@@ -1,0 +1,2666 @@
+date Wed 1 Feb 2023 11:15:54 GMT
+hostname MacBook-Pro-8.local
+system Darwin MacBook-Pro-8.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:20:05 PDT 2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T8101 arm64
+user brunocamino
+output data in /Users/brunocamino/Desktop/Imperial/cmsg_icl/solid-solutions/data/crystal/cao_confcount_2.out
+crystal executable in /Users/brunocamino/crystal
+input data in /Users/brunocamino/Desktop/Imperial/cmsg_icl/solid-solutions/data/crystal/cao_confcount_2.d12
+temporary directory /Users/brunocamino/crystal/tmp
+external geometry input from /Users/brunocamino/Desktop/Imperial/cmsg_icl/solid-solutions/data/crystal/cao_confcount_2.gui
+external geometry input saved in /Users/brunocamino/Desktop/Imperial/cmsg_icl/solid-solutions/data/crystal/cao_confcount_2_inp.gui
+TEST11 - MGO BULK
+CRYSTAL
+0 0 0
+225
+4.83817213
+2
+20 0.    0.    0.
+8 0.5   0.5   0.5
+SCELCONF
+2 0 0 
+0 2 0 
+0 0 2 
+EXTPRT
+CONFCOUNT
+1
+1
+ONLYCOMP
+1
+4 
+END
+END
+
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL17                                     *
+ *                      public : 1.0.1 - Feb 1st, 2017                         *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(2,6), I.J. BUSH(7), Ph. D'ARCO(8),               *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11)                                            *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18)                                                          *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+
+ * (2) COMPUTATIONAL SCIENCE & ENGINEERING DEPARTMENT - STFC DARESBURY (UK)    *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) OXFORD E-RESEARCH CENTRE - OXFORD (UK)                                  *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 01 02 2023 TIME 11:15:54.1
+ TEST11 - MGO BULK                                                               
+
+ CRYSTAL CALCULATION
+ (INPUT ACCORDING TO THE INTERNATIONAL TABLES FOR X-RAY CRYSTALLOGRAPHY)
+ CRYSTAL FAMILY                       :  CUBIC       
+ CRYSTAL CLASS  (GROTH - 1921)        :  CUBIC HEXAKISOCTAHEDRAL              
+
+ SPACE GROUP (CENTROSYMMETRIC)        :  F M 3 M         
+
+ LATTICE PARAMETERS  (ANGSTROMS AND DEGREES) - CONVENTIONAL CELL
+        A           B           C        ALPHA        BETA       GAMMA
+     4.83817     4.83817     4.83817    90.00000    90.00000    90.00000
+
+
+ NUMBER OF IRREDUCIBLE ATOMS IN THE CONVENTIONAL CELL:    2
+
+ INPUT COORDINATES
+
+ ATOM AT. N.              COORDINATES
+   1  20     0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+   2   8     5.000000000000E-01  5.000000000000E-01  5.000000000000E-01
+
+ *******************************************************************************
+
+ << INFORMATION >>: FROM NOW ON, ALL COORDINATES REFER TO THE PRIMITIVE CELL
+
+ *******************************************************************************
+
+ LATTICE PARAMETERS  (ANGSTROMS AND DEGREES) - PRIMITIVE CELL
+       A          B          C        ALPHA      BETA     GAMMA        VOLUME
+    3.42110    3.42110    3.42110    60.00000  60.00000  60.00000     28.312874
+
+ COORDINATES OF THE EQUIVALENT ATOMS (FRACTIONAL UNITS)
+
+ N. ATOM EQUIV AT. N.          X                  Y                  Z
+
+   1   1   1   20 CA    0.00000000000E+00  0.00000000000E+00  0.00000000000E+00
+
+   2   2   1    8 O    -5.00000000000E-01 -5.00000000000E-01 -5.00000000000E-01
+
+ NUMBER OF SYMMETRY OPERATORS         :   48
+ *******************************************************************************
+ * GEOMETRY EDITING - INPUT COORDINATES ARE GIVEN IN ANGSTROM         
+ *******************************************************************************
+
+ GEOMETRY NOW FULLY CONSISTENT WITH THE GROUP
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX    36.20556 BOHR
+
+ *******************************************************************************
+ * SUPERCELL OPTION
+ *******************************************************************************
+
+
+        EXPANSION MATRIX OF PRIMITIVE CELL
+ E1     2.000     0.000     0.000
+ E2     0.000     2.000     0.000
+ E3     0.000     0.000     2.000
+
+ NUMBER OF ATOMS PER SUPERCELL    16
+
+        DIRECT LATTICE VECTORS COMPONENTS (ANGSTROM)
+ B1     0.000     4.838     4.838
+ B2     4.838     0.000     4.838
+ B3     4.838     4.838     0.000
+
+ LATTICE PARAMETERS  (ANGSTROM AND DEGREES)
+       A          B          C         ALPHA     BETA     GAMMA        VOLUME
+    6.84221    6.84221    6.84221    60.00000  60.00000  60.00000    226.502991
+
+
+ **** ATOMS BELONGING TO THE SUPERCELL
+ LABEL AT.NO.      COORDINATES (ANGSTROM AND FRACTIONAL)
+     1    20     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000
+     2    20    -2.4191    -2.4191     0.0000     0.0000     0.0000    -0.5000
+     3    20    -2.4191     0.0000    -2.4191     0.0000    -0.5000     0.0000
+     4    20    -4.8382    -2.4191    -2.4191     0.0000    -0.5000    -0.5000
+     5    20     0.0000    -2.4191    -2.4191    -0.5000     0.0000     0.0000
+     6    20    -2.4191    -4.8382    -2.4191    -0.5000     0.0000    -0.5000
+     7    20    -2.4191    -2.4191    -4.8382    -0.5000    -0.5000     0.0000
+     8    20    -4.8382    -4.8382    -4.8382    -0.5000    -0.5000    -0.5000
+     9     8     2.4191     2.4191     2.4191     0.2500     0.2500     0.2500
+    10     8     0.0000     0.0000     2.4191     0.2500     0.2500    -0.2500
+    11     8     0.0000     2.4191     0.0000     0.2500    -0.2500     0.2500
+    12     8    -2.4191     0.0000     0.0000     0.2500    -0.2500    -0.2500
+    13     8     2.4191     0.0000     0.0000    -0.2500     0.2500     0.2500
+    14     8     0.0000    -2.4191     0.0000    -0.2500     0.2500    -0.2500
+    15     8     0.0000     0.0000    -2.4191    -0.2500    -0.2500     0.2500
+    16     8    -2.4191    -2.4191    -2.4191    -0.2500    -0.2500    -0.2500
+
+ **************************** SUPERCELL GENERATED ****************************
+
+ CONSTRUCTION OF SUPERCELL PRODUCT GROUP
+
+
+     SUPERCELL MATRIX
+
+  2.00000 0.00000 0.00000
+  0.00000 2.00000 0.00000
+  0.00000 0.00000 2.00000
+
+
+     INVERSE SUPERCELL MATRIX
+
+  0.50000 0.00000 0.00000
+  0.00000 0.50000 0.00000
+  0.00000 0.00000 0.50000
+
+
+ LABEL AT.NO.      COORDINATES (ANGSTROM)
+     1    20     0.0000     0.0000     0.0000
+     2    20    -2.4191    -2.4191     0.0000
+     3    20    -2.4191     0.0000    -2.4191
+     4    20    -4.8382    -2.4191    -2.4191
+     5    20     0.0000    -2.4191    -2.4191
+     6    20    -2.4191    -4.8382    -2.4191
+     7    20    -2.4191    -2.4191    -4.8382
+     8    20    -4.8382    -4.8382    -4.8382
+     9     8     2.4191     2.4191     2.4191
+    10     8     0.0000     0.0000     2.4191
+    11     8     0.0000     2.4191     0.0000
+    12     8    -2.4191     0.0000     0.0000
+    13     8     2.4191     0.0000     0.0000
+    14     8     0.0000    -2.4191     0.0000
+    15     8     0.0000     0.0000    -2.4191
+    16     8    -2.4191    -2.4191    -2.4191
+
+ *****  384 SYMMOPS - TRANSLATORS IN ANGSTROM
+ ***** MATRICES AND TRANSLATORS IN THE CARTESIAN REFERENCE FRAME
+
+ ORDER   : ORDER OF THE OPERATOR
+
+ TRANSLA : REAL TRANSLATION (WITHOUT ORIGIN SHIFT) IN CARTESIAN COORDINATES
+
+ uvw/hkl : ORIENTATION OF THE OPERATOR IN CARTESIAN COORDINATES
+
+ LOCATED : ORIGIN OF THE OPERATOR IN CARTESIAN COORDINATES
+
+   NO.   1 INVERSE   1    ORDER   1        NO.   2 INVERSE   2    ORDER   2
+    1.000   0.000   0.000     0.000        -1.000   0.000   0.000     0.000
+    0.000   1.000   0.000     0.000         0.000  -1.000   0.000     0.000
+    0.000   0.000   1.000     0.000         0.000   0.000   1.000     0.000
+             OPERATION E(   1)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG)   0.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000    4.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.   3 INVERSE   3    ORDER   2        NO.   4 INVERSE   4    ORDER   2
+    1.000   0.000   0.000     0.000        -1.000   0.000   0.000     0.000
+    0.000  -1.000   0.000     0.000         0.000   1.000   0.000     0.000
+    0.000   0.000  -1.000     0.000         0.000   0.000  -1.000     0.000
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  4.000    0.000    0.000)     uvw/hkl (  0.000   -4.000    0.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.   5 INVERSE   6    ORDER   3        NO.   6 INVERSE   5    ORDER   3
+    0.000   0.000   1.000     0.000         0.000   1.000   0.000     0.000
+    1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.   7 INVERSE   8    ORDER   3        NO.   8 INVERSE   7    ORDER   3
+    0.000   0.000  -1.000     0.000         0.000  -1.000   0.000     0.000
+   -1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.   9 INVERSE  10    ORDER   3        NO.  10 INVERSE   9    ORDER   3
+    0.000   0.000   1.000     0.000         0.000  -1.000   0.000     0.000
+   -1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000  -1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  11 INVERSE  12    ORDER   3        NO.  12 INVERSE  11    ORDER   3
+    0.000   0.000  -1.000     0.000         0.000   1.000   0.000     0.000
+    1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000  -1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  13 INVERSE  13    ORDER   2        NO.  14 INVERSE  14    ORDER   2
+    0.000  -1.000   0.000     0.000         0.000   1.000   0.000     0.000
+   -1.000   0.000   0.000     0.000         1.000   0.000   0.000     0.000
+    0.000   0.000  -1.000     0.000         0.000   0.000  -1.000     0.000
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  2.000   -2.000    0.000)     uvw/hkl ( -2.000   -2.000    0.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  15 INVERSE  16    ORDER   4        NO.  16 INVERSE  15    ORDER   4
+    0.000   1.000   0.000     0.000         0.000  -1.000   0.000     0.000
+   -1.000   0.000   0.000     0.000         1.000   0.000   0.000     0.000
+    0.000   0.000   1.000     0.000         0.000   0.000   1.000     0.000
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  17 INVERSE  17    ORDER   2        NO.  18 INVERSE  18    ORDER   2
+   -1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000   0.000  -1.000     0.000         0.000  -1.000   0.000     0.000
+    0.000  -1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  19 INVERSE  21    ORDER   4        NO.  20 INVERSE  22    ORDER   4
+    1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000   0.000   1.000     0.000         0.000   1.000   0.000     0.000
+    0.000  -1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  21 INVERSE  19    ORDER   4        NO.  22 INVERSE  20    ORDER   4
+    1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   0.000  -1.000     0.000         0.000   1.000   0.000     0.000
+    0.000   1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  23 INVERSE  23    ORDER   2        NO.  24 INVERSE  24    ORDER   2
+   -1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   0.000   1.000     0.000         0.000  -1.000   0.000     0.000
+    0.000   1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  25 INVERSE  25    ORDER   2        NO.  26 INVERSE  26    ORDER   2
+   -1.000   0.000   0.000     0.000         1.000   0.000   0.000     0.000
+    0.000  -1.000   0.000     0.000         0.000   1.000   0.000     0.000
+    0.000   0.000  -1.000     0.000         0.000   0.000  -1.000     0.000
+             OPERATION I(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG) 180.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000   -2.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  27 INVERSE  27    ORDER   2        NO.  28 INVERSE  28    ORDER   2
+   -1.000   0.000   0.000     0.000         1.000   0.000   0.000     0.000
+    0.000   1.000   0.000     0.000         0.000  -1.000   0.000     0.000
+    0.000   0.000   1.000     0.000         0.000   0.000   1.000     0.000
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  29 INVERSE  30    ORDER   6        NO.  30 INVERSE  29    ORDER   6
+    0.000   0.000  -1.000     0.000         0.000  -1.000   0.000     0.000
+   -1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000  -1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  31 INVERSE  32    ORDER   6        NO.  32 INVERSE  31    ORDER   6
+    0.000   0.000   1.000     0.000         0.000   1.000   0.000     0.000
+    1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000  -1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  33 INVERSE  34    ORDER   6        NO.  34 INVERSE  33    ORDER   6
+    0.000   0.000  -1.000     0.000         0.000   1.000   0.000     0.000
+    1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  35 INVERSE  36    ORDER   6        NO.  36 INVERSE  35    ORDER   6
+    0.000   0.000   1.000     0.000         0.000  -1.000   0.000     0.000
+   -1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  37 INVERSE  37    ORDER   2        NO.  38 INVERSE  38    ORDER   2
+    0.000   1.000   0.000     0.000         0.000  -1.000   0.000     0.000
+    1.000   0.000   0.000     0.000        -1.000   0.000   0.000     0.000
+    0.000   0.000   1.000     0.000         0.000   0.000   1.000     0.000
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    0.000)     uvw/hkl (  1.000    1.000    0.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  39 INVERSE  40    ORDER   4        NO.  40 INVERSE  39    ORDER   4
+    0.000  -1.000   0.000     0.000         0.000   1.000   0.000     0.000
+    1.000   0.000   0.000     0.000        -1.000   0.000   0.000     0.000
+    0.000   0.000  -1.000     0.000         0.000   0.000  -1.000     0.000
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  41 INVERSE  41    ORDER   2        NO.  42 INVERSE  42    ORDER   2
+    1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   0.000   1.000     0.000         0.000   1.000   0.000     0.000
+    0.000   1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000   -1.000    1.000)     uvw/hkl (  1.000    0.000   -1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  43 INVERSE  45    ORDER   4        NO.  44 INVERSE  46    ORDER   4
+   -1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   0.000  -1.000     0.000         0.000  -1.000   0.000     0.000
+    0.000   1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  45 INVERSE  43    ORDER   4        NO.  46 INVERSE  44    ORDER   4
+   -1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000   0.000   1.000     0.000         0.000  -1.000   0.000     0.000
+    0.000  -1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  47 INVERSE  47    ORDER   2        NO.  48 INVERSE  48    ORDER   2
+    1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000   0.000  -1.000     0.000         0.000   1.000   0.000     0.000
+    0.000  -1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000   -1.000   -1.000)     uvw/hkl (  1.000    0.000    1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  49 INVERSE  49    ORDER   1        NO.  50 INVERSE  50    ORDER   2
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   0.000   1.000     0.000         0.000   0.000   1.000     0.000
+             OPERATION E(   1)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG)   0.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -2.419   -2.419    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000    4.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED ( -1.210   -1.210    0.000)
+
+   NO.  51 INVERSE 291    ORDER   2        NO.  52 INVERSE 292    ORDER   2
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   0.000  -1.000     0.000         0.000   0.000  -1.000     0.000
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -2.419    0.000    0.000)     TRANSLA (  0.000   -2.419    0.000)
+ uvw/hkl (  4.000    0.000    0.000)     uvw/hkl (  0.000   -4.000    0.000)
+ LOCATED (  0.000   -1.210    0.000)     LOCATED ( -1.210    0.000    0.000)
+
+   NO.  53 INVERSE 102    ORDER   3        NO.  54 INVERSE 197    ORDER   3
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -1.613   -1.613   -1.613)     TRANSLA ( -1.613   -1.613   -1.613)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED ( -0.806   -1.613    0.000)     LOCATED ( -1.613   -0.806    0.000)
+
+   NO.  55 INVERSE 104    ORDER   3        NO.  56 INVERSE 151    ORDER   3
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000   -0.000)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -2.419    0.000    0.000)     LOCATED (  0.000   -2.419    0.000)
+
+   NO.  57 INVERSE 250    ORDER   3        NO.  58 INVERSE 201    ORDER   3
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED ( -2.419    0.000    0.000)     LOCATED (  0.000   -2.419    0.000)
+
+   NO.  59 INVERSE 252    ORDER   3        NO.  60 INVERSE 155    ORDER   3
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -1.613   -1.613    1.613)     TRANSLA ( -1.613   -1.613    1.613)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED ( -0.806   -1.613    0.000)     LOCATED ( -1.613   -0.806    0.000)
+
+   NO.  61 INVERSE  61    ORDER   2        NO.  62 INVERSE  62    ORDER   2
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000   0.000  -1.000     0.000         0.000   0.000  -1.000     0.000
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA ( -2.419   -2.419    0.000)
+ uvw/hkl (  2.000   -2.000    0.000)     uvw/hkl ( -2.000   -2.000    0.000)
+ LOCATED ( -2.419    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  63 INVERSE 304    ORDER   4        NO.  64 INVERSE 303    ORDER   4
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000   0.000   1.000     0.000         0.000   0.000   1.000     0.000
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED ( -2.419    0.000    0.000)     LOCATED (  0.000   -2.419    0.000)
+
+   NO.  65 INVERSE 113    ORDER   2        NO.  66 INVERSE 210    ORDER   2
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000  -1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000   -1.210    1.210)     TRANSLA ( -1.210    0.000    1.210)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED ( -1.210   -1.210    0.000)     LOCATED ( -1.210   -1.210    0.000)
+
+   NO.  67 INVERSE 117    ORDER   4        NO.  68 INVERSE 166    ORDER   4
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000  -1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA ( -2.419    0.000   -0.000)     TRANSLA (  0.000   -2.419    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000   -1.210    1.210)     LOCATED ( -1.210    0.000   -1.210)
+
+   NO.  69 INVERSE 259    ORDER   4        NO.  70 INVERSE 212    ORDER   4
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA ( -2.419    0.000    0.000)     TRANSLA (  0.000   -2.419   -0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000   -1.210   -1.210)     LOCATED ( -1.210    0.000    1.210)
+
+   NO.  71 INVERSE 263    ORDER   2        NO.  72 INVERSE 168    ORDER   2
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000   -1.210   -1.210)     TRANSLA ( -1.210    0.000   -1.210)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED ( -1.210   -1.210    0.000)     LOCATED ( -1.210   -1.210    0.000)
+
+   NO.  73 INVERSE  73    ORDER   2        NO.  74 INVERSE  74    ORDER   2
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   0.000  -1.000     0.000         0.000   0.000  -1.000     0.000
+             OPERATION I(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG) 180.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA ( -2.419   -2.419    0.000)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000   -2.000)
+ LOCATED ( -1.210   -1.210    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO.  75 INVERSE 315    ORDER   2        NO.  76 INVERSE 316    ORDER   2
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   0.000   1.000     0.000         0.000   0.000   1.000     0.000
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000   -2.419    0.000)     TRANSLA ( -2.419    0.000    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED ( -1.210    0.000    0.000)     LOCATED (  0.000   -1.210    0.000)
+
+   NO.  77 INVERSE 126    ORDER   6        NO.  78 INVERSE 221    ORDER   6
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED ( -2.419    0.000   -0.000)     LOCATED (  0.000   -2.419    0.000)
+
+   NO.  79 INVERSE 128    ORDER   6        NO.  80 INVERSE 175    ORDER   6
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000   -0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED ( -2.419   -4.838    0.000)     LOCATED ( -4.838   -2.419   -0.000)
+
+   NO.  81 INVERSE 274    ORDER   6        NO.  82 INVERSE 225    ORDER   6
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000   -0.000)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED ( -2.419   -4.838    0.000)     LOCATED ( -4.838   -2.419    0.000)
+
+   NO.  83 INVERSE 276    ORDER   6        NO.  84 INVERSE 179    ORDER   6
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -2.419    0.000    0.000)     LOCATED (  0.000   -2.419    0.000)
+
+   NO.  85 INVERSE  85    ORDER   2        NO.  86 INVERSE  86    ORDER   2
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000   0.000   1.000     0.000         0.000   0.000   1.000     0.000
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -2.419   -2.419    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    0.000)     uvw/hkl (  1.000    1.000    0.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED ( -2.419    0.000    0.000)
+
+   NO.  87 INVERSE 328    ORDER   4        NO.  88 INVERSE 327    ORDER   4
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000   0.000  -1.000     0.000         0.000   0.000  -1.000     0.000
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED (  0.000   -2.419    0.000)     LOCATED ( -2.419    0.000    0.000)
+
+   NO.  89 INVERSE 137    ORDER   2        NO.  90 INVERSE 234    ORDER   2
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -2.419   -1.210   -1.210)     TRANSLA ( -1.210   -2.419   -1.210)
+ uvw/hkl (  0.000   -1.000    1.000)     uvw/hkl (  1.000    0.000   -1.000)
+ LOCATED (  0.000   -1.210    0.000)     LOCATED ( -1.210    0.000    0.000)
+
+   NO.  91 INVERSE 141    ORDER   4        NO.  92 INVERSE 190    ORDER   4
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000   -0.000)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED ( -1.210   -2.419   -0.000)     LOCATED ( -2.419   -1.210    0.000)
+
+   NO.  93 INVERSE 283    ORDER   4        NO.  94 INVERSE 236    ORDER   4
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000  -1.000   0.000     0.000         1.000   0.000   0.000     0.000
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000   -0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED ( -1.210   -2.419    0.000)     LOCATED ( -2.419   -1.210    0.000)
+
+   NO.  95 INVERSE 287    ORDER   2        NO.  96 INVERSE 192    ORDER   2
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000  -1.000   0.000     0.000        -1.000   0.000   0.000     0.000
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -2.419   -1.210    1.210)     TRANSLA ( -1.210   -2.419    1.210)
+ uvw/hkl (  0.000   -1.000   -1.000)     uvw/hkl (  1.000    0.000    1.000)
+ LOCATED (  0.000   -1.210    0.000)     LOCATED ( -1.210    0.000    0.000)
+
+   NO.  97 INVERSE  97    ORDER   1        NO.  98 INVERSE 242    ORDER   2
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000   1.000   0.000     0.000         0.000  -1.000   0.000     0.000
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION E(   1)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG)   0.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -2.419    0.000   -2.419)     TRANSLA (  0.000    0.000   -2.419)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000    4.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED ( -1.210    0.000    0.000)
+
+   NO.  99 INVERSE 243    ORDER   2        NO. 100 INVERSE 100    ORDER   2
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000  -1.000   0.000     0.000         0.000   1.000   0.000     0.000
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -2.419    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  4.000    0.000    0.000)     uvw/hkl (  0.000   -4.000    0.000)
+ LOCATED (  0.000    0.000   -1.210)     LOCATED ( -1.210    0.000   -1.210)
+
+   NO. 101 INVERSE 198    ORDER   3        NO. 102 INVERSE  53    ORDER   3
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -1.613   -1.613   -1.613)     TRANSLA ( -1.613   -1.613   -1.613)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED ( -0.806    0.806    0.000)     LOCATED (  0.806    1.613    0.000)
+
+   NO. 103 INVERSE 152    ORDER   3        NO. 104 INVERSE  55    ORDER   3
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  0.000   -0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -2.419    2.419    0.000)     LOCATED ( -2.419    0.000    0.000)
+
+   NO. 105 INVERSE 154    ORDER   3        NO. 106 INVERSE 297    ORDER   3
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -1.613    1.613   -1.613)     TRANSLA ( -1.613    1.613   -1.613)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED ( -0.806   -0.806    0.000)     LOCATED (  0.806   -1.613    0.000)
+
+   NO. 107 INVERSE 204    ORDER   3        NO. 108 INVERSE 299    ORDER   3
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED ( -2.419   -2.419    0.000)     LOCATED ( -2.419    0.000    0.000)
+
+   NO. 109 INVERSE 205    ORDER   2        NO. 110 INVERSE 158    ORDER   2
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+   -1.000   0.000   0.000     0.000         1.000   0.000   0.000     0.000
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -1.210    1.210    0.000)     TRANSLA ( -1.210   -1.210    0.000)
+ uvw/hkl (  2.000   -2.000    0.000)     uvw/hkl ( -2.000   -2.000    0.000)
+ LOCATED ( -1.210    0.000   -1.210)     LOCATED ( -1.210    0.000   -1.210)
+
+   NO. 111 INVERSE 208    ORDER   4        NO. 112 INVERSE 159    ORDER   4
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000     0.000         1.000   0.000   0.000     0.000
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000   -0.000   -2.419)     TRANSLA (  0.000    0.000   -2.419)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED ( -1.210    1.210    0.000)     LOCATED ( -1.210   -1.210    0.000)
+
+   NO. 113 INVERSE  65    ORDER   2        NO. 114 INVERSE 114    ORDER   2
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000  -1.000     0.000         0.000  -1.000   0.000     0.000
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000    1.210   -1.210)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED ( -1.210   -1.210    0.000)     LOCATED ( -2.419    0.000    0.000)
+
+   NO. 115 INVERSE 309    ORDER   4        NO. 116 INVERSE 262    ORDER   4
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000   1.000     0.000         0.000   1.000   0.000     0.000
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA ( -2.419    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000   -1.210   -1.210)     LOCATED (  0.000    0.000   -2.419)
+
+   NO. 117 INVERSE  67    ORDER   4        NO. 118 INVERSE 260    ORDER   4
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000  -1.000     0.000         0.000   1.000   0.000     0.000
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA ( -2.419   -0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000    1.210   -1.210)     LOCATED ( -2.419    0.000    0.000)
+
+   NO. 119 INVERSE 311    ORDER   2        NO. 120 INVERSE 120    ORDER   2
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000   1.000     0.000         0.000  -1.000   0.000     0.000
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000   -1.210   -1.210)     TRANSLA ( -2.419    0.000   -2.419)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED ( -1.210    1.210    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO. 121 INVERSE 121    ORDER   2        NO. 122 INVERSE 266    ORDER   2
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000  -1.000   0.000     0.000         0.000   1.000   0.000     0.000
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION I(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG) 180.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA ( -2.419    0.000    0.000)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000   -2.000)
+ LOCATED ( -1.210    0.000   -1.210)     LOCATED (  0.000    0.000   -1.210)
+
+   NO. 123 INVERSE 267    ORDER   2        NO. 124 INVERSE 124    ORDER   2
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000   1.000   0.000     0.000         0.000  -1.000   0.000     0.000
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000   -2.419)     TRANSLA ( -2.419    0.000   -2.419)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED ( -1.210    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO. 125 INVERSE 222    ORDER   6        NO. 126 INVERSE  77    ORDER   6
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED ( -2.419    2.419    0.000)     LOCATED ( -2.419   -0.000    0.000)
+
+   NO. 127 INVERSE 176    ORDER   6        NO. 128 INVERSE  79    ORDER   6
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000   -0.000    0.000)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED ( -2.419   -2.419    0.000)     LOCATED ( -2.419    0.000    0.000)
+
+   NO. 129 INVERSE 178    ORDER   6        NO. 130 INVERSE 321    ORDER   6
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED ( -2.419   -2.419    0.000)     LOCATED ( -2.419    0.000    0.000)
+
+   NO. 131 INVERSE 228    ORDER   6        NO. 132 INVERSE 323    ORDER   6
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000   -0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -2.419    2.419    0.000)     LOCATED ( -2.419   -0.000    0.000)
+
+   NO. 133 INVERSE 229    ORDER   2        NO. 134 INVERSE 182    ORDER   2
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+    1.000   0.000   0.000     0.000        -1.000   0.000   0.000     0.000
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -1.210   -1.210   -2.419)     TRANSLA ( -1.210    1.210   -2.419)
+ uvw/hkl (  1.000   -1.000    0.000)     uvw/hkl (  1.000    1.000    0.000)
+ LOCATED ( -1.210    0.000    0.000)     LOCATED ( -1.210    0.000    0.000)
+
+   NO. 135 INVERSE 232    ORDER   4        NO. 136 INVERSE 183    ORDER   4
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000     0.000        -1.000   0.000   0.000     0.000
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000   -0.000    0.000)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED ( -1.210   -1.210   -1.210)     LOCATED ( -1.210    1.210   -1.210)
+
+   NO. 137 INVERSE  89    ORDER   2        NO. 138 INVERSE 138    ORDER   2
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000   1.000     0.000         0.000   1.000   0.000     0.000
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -2.419   -1.210   -1.210)     TRANSLA ( -2.419    0.000   -2.419)
+ uvw/hkl (  0.000   -1.000    1.000)     uvw/hkl (  1.000    0.000   -1.000)
+ LOCATED (  0.000    1.210    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO. 139 INVERSE 333    ORDER   4        NO. 140 INVERSE 286    ORDER   4
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000  -1.000     0.000         0.000  -1.000   0.000     0.000
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000   -0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED ( -1.210    0.000    0.000)     LOCATED ( -2.419    0.000    0.000)
+
+   NO. 141 INVERSE  91    ORDER   4        NO. 142 INVERSE 284    ORDER   4
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000   1.000     0.000         0.000  -1.000   0.000     0.000
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED ( -1.210   -0.000    0.000)     LOCATED ( -2.419    0.000    0.000)
+
+   NO. 143 INVERSE 335    ORDER   2        NO. 144 INVERSE 144    ORDER   2
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000  -1.000     0.000         0.000   1.000   0.000     0.000
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -2.419    1.210   -1.210)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000   -1.000   -1.000)     uvw/hkl (  1.000    0.000    1.000)
+ LOCATED (  0.000   -1.210    0.000)     LOCATED ( -2.419    0.000    0.000)
+
+   NO. 145 INVERSE 145    ORDER   1        NO. 146 INVERSE 194    ORDER   2
+    1.000   0.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION E(   1)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG)   0.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -4.838   -2.419   -2.419)     TRANSLA (  0.000    0.000   -2.419)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000    4.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED ( -2.419   -1.210    0.000)
+
+   NO. 147 INVERSE 147    ORDER   2        NO. 148 INVERSE 196    ORDER   2
+    1.000   0.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -4.838    0.000    0.000)     TRANSLA (  0.000   -2.419    0.000)
+ uvw/hkl (  4.000    0.000    0.000)     uvw/hkl (  0.000   -4.000    0.000)
+ LOCATED (  0.000   -1.210   -1.210)     LOCATED ( -2.419    0.000   -1.210)
+
+   NO. 149 INVERSE 294    ORDER   3        NO. 150 INVERSE 245    ORDER   3
+    0.000   0.000   1.000    -4.838         0.000   1.000   0.000    -4.838
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -3.225   -3.225   -3.225)     TRANSLA ( -3.225   -3.225   -3.225)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED ( -1.613   -0.806    0.000)     LOCATED ( -0.806    0.806    0.000)
+
+   NO. 151 INVERSE  56    ORDER   3        NO. 152 INVERSE 103    ORDER   3
+    0.000   0.000  -1.000    -4.838         0.000  -1.000   0.000    -4.838
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  0.000   -0.000    0.000)     TRANSLA (  0.000    0.000   -0.000)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -4.838    2.419    0.000)     LOCATED ( -2.419   -2.419    0.000)
+
+   NO. 153 INVERSE 298    ORDER   3        NO. 154 INVERSE 105    ORDER   3
+    0.000   0.000   1.000    -4.838         0.000  -1.000   0.000    -4.838
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -1.613    1.613   -1.613)     TRANSLA ( -1.613    1.613   -1.613)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED ( -3.225   -0.806    0.000)     LOCATED (  0.806   -4.032    0.000)
+
+   NO. 155 INVERSE  60    ORDER   3        NO. 156 INVERSE 251    ORDER   3
+    0.000   0.000  -1.000    -4.838         0.000   1.000   0.000    -4.838
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -1.613   -1.613    1.613)     TRANSLA ( -1.613   -1.613    1.613)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED ( -3.225   -4.032    0.000)     LOCATED ( -4.032   -0.806    0.000)
+
+   NO. 157 INVERSE 253    ORDER   2        NO. 158 INVERSE 110    ORDER   2
+    0.000  -1.000   0.000    -4.838         0.000   1.000   0.000    -4.838
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -1.210    1.210    0.000)     TRANSLA ( -3.629   -3.629    0.000)
+ uvw/hkl (  2.000   -2.000    0.000)     uvw/hkl ( -2.000   -2.000    0.000)
+ LOCATED ( -3.629    0.000   -1.210)     LOCATED ( -1.210    0.000   -1.210)
+
+   NO. 159 INVERSE 112    ORDER   4        NO. 160 INVERSE 255    ORDER   4
+    0.000   1.000   0.000    -4.838         0.000  -1.000   0.000    -4.838
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000   -0.000   -2.419)     TRANSLA (  0.000    0.000   -2.419)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED ( -3.629    1.210    0.000)     LOCATED ( -1.210   -3.629    0.000)
+
+   NO. 161 INVERSE 161    ORDER   2        NO. 162 INVERSE 306    ORDER   2
+   -1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA ( -1.210    0.000    1.210)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED ( -2.419   -2.419    0.000)     LOCATED ( -3.629   -1.210    0.000)
+
+   NO. 163 INVERSE 213    ORDER   4        NO. 164 INVERSE 310    ORDER   4
+    1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA ( -4.838    0.000    0.000)     TRANSLA (  0.000   -2.419    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000   -2.419    0.000)     LOCATED ( -1.210    0.000   -3.629)
+
+   NO. 165 INVERSE 211    ORDER   4        NO. 166 INVERSE  68    ORDER   4
+    1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA ( -4.838    0.000    0.000)     TRANSLA (  0.000   -2.419   -0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000    0.000   -2.419)     LOCATED ( -3.629    0.000    1.210)
+
+   NO. 167 INVERSE 167    ORDER   2        NO. 168 INVERSE  72    ORDER   2
+   -1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000   -2.419   -2.419)     TRANSLA ( -3.629    0.000   -3.629)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED ( -2.419    0.000    0.000)     LOCATED ( -1.210   -1.210    0.000)
+
+   NO. 169 INVERSE 169    ORDER   2        NO. 170 INVERSE 218    ORDER   2
+   -1.000   0.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION I(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG) 180.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA ( -4.838   -2.419    0.000)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000   -2.000)
+ LOCATED ( -2.419   -1.210   -1.210)     LOCATED (  0.000    0.000   -1.210)
+
+   NO. 171 INVERSE 171    ORDER   2        NO. 172 INVERSE 220    ORDER   2
+   -1.000   0.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000   -2.419   -2.419)     TRANSLA ( -4.838    0.000   -2.419)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED ( -2.419    0.000    0.000)     LOCATED (  0.000   -1.210    0.000)
+
+   NO. 173 INVERSE 318    ORDER   6        NO. 174 INVERSE 269    ORDER   6
+    0.000   0.000  -1.000    -4.838         0.000  -1.000   0.000    -4.838
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED ( -4.838    2.419    0.000)     LOCATED ( -2.419   -2.419    0.000)
+
+   NO. 175 INVERSE  80    ORDER   6        NO. 176 INVERSE 127    ORDER   6
+    0.000   0.000   1.000    -4.838         0.000   1.000   0.000    -4.838
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000   -0.000)     TRANSLA (  0.000   -0.000    0.000)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED ( -4.838   -7.257    0.000)     LOCATED ( -7.257   -2.419    0.000)
+
+   NO. 177 INVERSE 322    ORDER   6        NO. 178 INVERSE 129    ORDER   6
+    0.000   0.000  -1.000    -4.838         0.000   1.000   0.000    -4.838
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000   -0.000)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED ( -4.838   -7.257    0.000)     LOCATED ( -7.257   -2.419    0.000)
+
+   NO. 179 INVERSE  84    ORDER   6        NO. 180 INVERSE 275    ORDER   6
+    0.000   0.000   1.000    -4.838         0.000  -1.000   0.000    -4.838
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000   -0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -4.838    2.419    0.000)     LOCATED ( -2.419   -2.419    0.000)
+
+   NO. 181 INVERSE 277    ORDER   2        NO. 182 INVERSE 134    ORDER   2
+    0.000   1.000   0.000    -4.838         0.000  -1.000   0.000    -4.838
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -3.629   -3.629   -2.419)     TRANSLA ( -1.210    1.210   -2.419)
+ uvw/hkl (  1.000   -1.000    0.000)     uvw/hkl (  1.000    1.000    0.000)
+ LOCATED ( -1.210    0.000    0.000)     LOCATED ( -3.629    0.000    0.000)
+
+   NO. 183 INVERSE 136    ORDER   4        NO. 184 INVERSE 279    ORDER   4
+    0.000  -1.000   0.000    -4.838         0.000   1.000   0.000    -4.838
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000   -0.000    0.000)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED ( -1.210   -3.629   -1.210)     LOCATED ( -3.629    1.210   -1.210)
+
+   NO. 185 INVERSE 185    ORDER   2        NO. 186 INVERSE 330    ORDER   2
+    1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -4.838   -2.419   -2.419)     TRANSLA ( -3.629   -2.419   -3.629)
+ uvw/hkl (  0.000   -1.000    1.000)     uvw/hkl (  1.000    0.000   -1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED ( -1.210    0.000    0.000)
+
+   NO. 187 INVERSE 237    ORDER   4        NO. 188 INVERSE 334    ORDER   4
+   -1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000   -0.000)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED ( -2.419   -2.419    0.000)     LOCATED ( -4.838   -1.210    0.000)
+
+   NO. 189 INVERSE 235    ORDER   4        NO. 190 INVERSE  92    ORDER   4
+   -1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED ( -2.419   -2.419    0.000)     LOCATED ( -4.838   -1.210    0.000)
+
+   NO. 191 INVERSE 191    ORDER   2        NO. 192 INVERSE  96    ORDER   2
+    1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -4.838    0.000    0.000)     TRANSLA ( -1.210   -2.419    1.210)
+ uvw/hkl (  0.000   -1.000   -1.000)     uvw/hkl (  1.000    0.000    1.000)
+ LOCATED (  0.000   -2.419    0.000)     LOCATED ( -3.629    0.000    0.000)
+
+   NO. 193 INVERSE 193    ORDER   1        NO. 194 INVERSE 146    ORDER   2
+    1.000   0.000   0.000     0.000        -1.000   0.000   0.000     0.000
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION E(   1)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG)   0.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000   -2.419   -2.419)     TRANSLA (  0.000    0.000   -2.419)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000    4.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000   -1.210    0.000)
+
+   NO. 195 INVERSE 195    ORDER   2        NO. 196 INVERSE 148    ORDER   2
+    1.000   0.000   0.000     0.000        -1.000   0.000   0.000     0.000
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000   -2.419    0.000)
+ uvw/hkl (  4.000    0.000    0.000)     uvw/hkl (  0.000   -4.000    0.000)
+ LOCATED (  0.000   -1.210   -1.210)     LOCATED (  0.000    0.000   -1.210)
+
+   NO. 197 INVERSE  54    ORDER   3        NO. 198 INVERSE 101    ORDER   3
+    0.000   0.000   1.000     0.000         0.000   1.000   0.000     0.000
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -1.613   -1.613   -1.613)     TRANSLA ( -1.613   -1.613   -1.613)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED (  1.613    0.806    0.000)     LOCATED (  0.806   -0.806    0.000)
+
+   NO. 199 INVERSE 296    ORDER   3        NO. 200 INVERSE 247    ORDER   3
+    0.000   0.000  -1.000     0.000         0.000  -1.000   0.000     0.000
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  1.613   -1.613   -1.613)     TRANSLA (  1.613   -1.613   -1.613)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -1.613    0.806    0.000)     LOCATED ( -0.806   -0.806    0.000)
+
+   NO. 201 INVERSE  58    ORDER   3        NO. 202 INVERSE 249    ORDER   3
+    0.000   0.000   1.000     0.000         0.000  -1.000   0.000     0.000
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA ( -0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED ( -0.000   -2.419    0.000)     LOCATED (  2.419   -2.419    0.000)
+
+   NO. 203 INVERSE 300    ORDER   3        NO. 204 INVERSE 107    ORDER   3
+    0.000   0.000  -1.000     0.000         0.000   1.000   0.000     0.000
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED (  0.000   -2.419    0.000)     LOCATED ( -2.419   -2.419    0.000)
+
+   NO. 205 INVERSE 109    ORDER   2        NO. 206 INVERSE 254    ORDER   2
+    0.000  -1.000   0.000     0.000         0.000   1.000   0.000     0.000
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  1.210   -1.210    0.000)     TRANSLA ( -1.210   -1.210    0.000)
+ uvw/hkl (  2.000   -2.000    0.000)     uvw/hkl ( -2.000   -2.000    0.000)
+ LOCATED ( -1.210    0.000   -1.210)     LOCATED (  1.210    0.000   -1.210)
+
+   NO. 207 INVERSE 256    ORDER   4        NO. 208 INVERSE 111    ORDER   4
+    0.000   1.000   0.000     0.000         0.000  -1.000   0.000     0.000
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000   -2.419)     TRANSLA ( -0.000    0.000   -2.419)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED ( -1.210   -1.210    0.000)     LOCATED (  1.210   -1.210    0.000)
+
+   NO. 209 INVERSE 209    ORDER   2        NO. 210 INVERSE  66    ORDER   2
+   -1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  1.210    0.000   -1.210)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED (  0.000   -2.419    0.000)     LOCATED ( -1.210   -1.210    0.000)
+
+   NO. 211 INVERSE 165    ORDER   4        NO. 212 INVERSE  70    ORDER   4
+    1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA ( -0.000   -2.419    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000   -2.419    0.000)     LOCATED (  1.210    0.000   -1.210)
+
+   NO. 213 INVERSE 163    ORDER   4        NO. 214 INVERSE 308    ORDER   4
+    1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000   -2.419    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000    0.000   -2.419)     LOCATED ( -1.210    0.000   -1.210)
+
+   NO. 215 INVERSE 215    ORDER   2        NO. 216 INVERSE 312    ORDER   2
+   -1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000   -2.419   -2.419)     TRANSLA ( -1.210    0.000   -1.210)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  1.210   -1.210    0.000)
+
+   NO. 217 INVERSE 217    ORDER   2        NO. 218 INVERSE 170    ORDER   2
+   -1.000   0.000   0.000     0.000         1.000   0.000   0.000     0.000
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION I(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG) 180.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000   -2.419    0.000)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000   -2.000)
+ LOCATED (  0.000   -1.210   -1.210)     LOCATED (  0.000    0.000   -1.210)
+
+   NO. 219 INVERSE 219    ORDER   2        NO. 220 INVERSE 172    ORDER   2
+   -1.000   0.000   0.000     0.000         1.000   0.000   0.000     0.000
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000   -2.419   -2.419)     TRANSLA (  0.000    0.000   -2.419)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000   -1.210    0.000)
+
+   NO. 221 INVERSE  78    ORDER   6        NO. 222 INVERSE 125    ORDER   6
+    0.000   0.000  -1.000     0.000         0.000  -1.000   0.000     0.000
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED (  0.000   -2.419    0.000)     LOCATED (  2.419   -2.419    0.000)
+
+   NO. 223 INVERSE 320    ORDER   6        NO. 224 INVERSE 271    ORDER   6
+    0.000   0.000   1.000     0.000         0.000   1.000   0.000     0.000
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED (  0.000   -2.419    0.000)     LOCATED ( -2.419   -2.419    0.000)
+
+   NO. 225 INVERSE  82    ORDER   6        NO. 226 INVERSE 273    ORDER   6
+    0.000   0.000  -1.000     0.000         0.000   1.000   0.000     0.000
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA ( -0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED (  0.000   -2.419    0.000)     LOCATED ( -2.419   -2.419    0.000)
+
+   NO. 227 INVERSE 324    ORDER   6        NO. 228 INVERSE 131    ORDER   6
+    0.000   0.000   1.000     0.000         0.000  -1.000   0.000     0.000
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA ( -0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -0.000   -2.419    0.000)     LOCATED (  2.419   -2.419    0.000)
+
+   NO. 229 INVERSE 133    ORDER   2        NO. 230 INVERSE 278    ORDER   2
+    0.000   1.000   0.000     0.000         0.000  -1.000   0.000     0.000
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -1.210   -1.210   -2.419)     TRANSLA (  1.210   -1.210   -2.419)
+ uvw/hkl (  1.000   -1.000    0.000)     uvw/hkl (  1.000    1.000    0.000)
+ LOCATED (  1.210    0.000    0.000)     LOCATED ( -1.210    0.000    0.000)
+
+   NO. 231 INVERSE 280    ORDER   4        NO. 232 INVERSE 135    ORDER   4
+    0.000  -1.000   0.000     0.000         0.000   1.000   0.000     0.000
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA ( -0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED (  1.210   -1.210   -1.210)     LOCATED ( -1.210   -1.210   -1.210)
+
+   NO. 233 INVERSE 233    ORDER   2        NO. 234 INVERSE  90    ORDER   2
+    1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000   -2.419   -2.419)     TRANSLA ( -1.210   -2.419   -1.210)
+ uvw/hkl (  0.000   -1.000    1.000)     uvw/hkl (  1.000    0.000   -1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  1.210    0.000    0.000)
+
+   NO. 235 INVERSE 189    ORDER   4        NO. 236 INVERSE  94    ORDER   4
+   -1.000   0.000   0.000     0.000         0.000   0.000   1.000     0.000
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED (  0.000   -2.419    0.000)     LOCATED ( -0.000   -1.210    0.000)
+
+   NO. 237 INVERSE 187    ORDER   4        NO. 238 INVERSE 332    ORDER   4
+   -1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA ( -0.000    0.000    0.000)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED (  0.000   -2.419    0.000)     LOCATED (  0.000   -1.210    0.000)
+
+   NO. 239 INVERSE 239    ORDER   2        NO. 240 INVERSE 336    ORDER   2
+    1.000   0.000   0.000     0.000         0.000   0.000  -1.000     0.000
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  1.210   -2.419   -1.210)
+ uvw/hkl (  0.000   -1.000   -1.000)     uvw/hkl (  1.000    0.000    1.000)
+ LOCATED (  0.000   -2.419    0.000)     LOCATED ( -1.210    0.000    0.000)
+
+   NO. 241 INVERSE 241    ORDER   1        NO. 242 INVERSE  98    ORDER   2
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000   1.000   0.000    -4.838         0.000  -1.000   0.000    -4.838
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION E(   1)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG)   0.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -2.419   -4.838   -2.419)     TRANSLA (  0.000    0.000   -2.419)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000    4.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED ( -1.210   -2.419    0.000)
+
+   NO. 243 INVERSE  99    ORDER   2        NO. 244 INVERSE 244    ORDER   2
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000  -1.000   0.000    -4.838         0.000   1.000   0.000    -4.838
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -2.419    0.000    0.000)     TRANSLA (  0.000   -4.838    0.000)
+ uvw/hkl (  4.000    0.000    0.000)     uvw/hkl (  0.000   -4.000    0.000)
+ LOCATED (  0.000   -2.419   -1.210)     LOCATED ( -1.210    0.000   -1.210)
+
+   NO. 245 INVERSE 150    ORDER   3        NO. 246 INVERSE 293    ORDER   3
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -3.225   -3.225   -3.225)     TRANSLA ( -3.225   -3.225   -3.225)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED (  0.806   -0.806    0.000)     LOCATED ( -0.806   -1.613    0.000)
+
+   NO. 247 INVERSE 200    ORDER   3        NO. 248 INVERSE 295    ORDER   3
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  1.613   -1.613   -1.613)     TRANSLA (  1.613   -1.613   -1.613)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -4.032    0.806    0.000)     LOCATED ( -0.806   -3.225    0.000)
+
+   NO. 249 INVERSE 202    ORDER   3        NO. 250 INVERSE  57    ORDER   3
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED ( -2.419   -2.419    0.000)     LOCATED (  2.419   -4.838    0.000)
+
+   NO. 251 INVERSE 156    ORDER   3        NO. 252 INVERSE  59    ORDER   3
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -1.613   -1.613    1.613)     TRANSLA ( -1.613   -1.613    1.613)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED ( -0.806   -4.032    0.000)     LOCATED ( -4.032   -3.225    0.000)
+
+   NO. 253 INVERSE 157    ORDER   2        NO. 254 INVERSE 206    ORDER   2
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+   -1.000   0.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  1.210   -1.210    0.000)     TRANSLA ( -3.629   -3.629    0.000)
+ uvw/hkl (  2.000   -2.000    0.000)     uvw/hkl ( -2.000   -2.000    0.000)
+ LOCATED ( -3.629    0.000   -1.210)     LOCATED (  1.210    0.000   -1.210)
+
+   NO. 255 INVERSE 160    ORDER   4        NO. 256 INVERSE 207    ORDER   4
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000   -2.419)     TRANSLA ( -0.000    0.000   -2.419)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED ( -3.629   -1.210    0.000)     LOCATED (  1.210   -3.629    0.000)
+
+   NO. 257 INVERSE 305    ORDER   2        NO. 258 INVERSE 258    ORDER   2
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000  -1.000    -4.838         0.000  -1.000   0.000    -4.838
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000   -1.210    1.210)     TRANSLA (  0.000    0.000   -0.000)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED ( -1.210   -3.629    0.000)     LOCATED ( -2.419   -2.419    0.000)
+
+   NO. 259 INVERSE  69    ORDER   4        NO. 260 INVERSE 118    ORDER   4
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000   1.000    -4.838         0.000   1.000   0.000    -4.838
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA ( -2.419    0.000   -0.000)     TRANSLA (  0.000   -4.838    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000   -3.629    1.210)     LOCATED (  0.000    0.000   -2.419)
+
+   NO. 261 INVERSE 307    ORDER   4        NO. 262 INVERSE 116    ORDER   4
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000  -1.000    -4.838         0.000   1.000   0.000    -4.838
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA ( -2.419    0.000    0.000)     TRANSLA (  0.000   -4.838    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000   -1.210   -3.629)     LOCATED ( -2.419    0.000   -0.000)
+
+   NO. 263 INVERSE  71    ORDER   2        NO. 264 INVERSE 264    ORDER   2
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000   1.000    -4.838         0.000  -1.000   0.000    -4.838
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000   -3.629   -3.629)     TRANSLA ( -2.419    0.000   -2.419)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED ( -1.210   -1.210    0.000)     LOCATED (  0.000   -2.419    0.000)
+
+   NO. 265 INVERSE 265    ORDER   2        NO. 266 INVERSE 122    ORDER   2
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000  -1.000   0.000    -4.838         0.000   1.000   0.000    -4.838
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION I(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG) 180.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA ( -2.419   -4.838    0.000)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000   -2.000)
+ LOCATED ( -1.210   -2.419   -1.210)     LOCATED (  0.000    0.000   -1.210)
+
+   NO. 267 INVERSE 123    ORDER   2        NO. 268 INVERSE 268    ORDER   2
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000   1.000   0.000    -4.838         0.000  -1.000   0.000    -4.838
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000   -4.838   -2.419)     TRANSLA ( -2.419    0.000   -2.419)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED ( -1.210    0.000    0.000)     LOCATED (  0.000   -2.419    0.000)
+
+   NO. 269 INVERSE 174    ORDER   6        NO. 270 INVERSE 317    ORDER   6
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED ( -2.419   -2.419    0.000)     LOCATED (  2.419   -4.838    0.000)
+
+   NO. 271 INVERSE 224    ORDER   6        NO. 272 INVERSE 319    ORDER   6
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA ( -0.000    0.000   -0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED ( -2.419   -7.257    0.000)     LOCATED ( -7.257   -4.838   -0.000)
+
+   NO. 273 INVERSE 226    ORDER   6        NO. 274 INVERSE  81    ORDER   6
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA ( -0.000    0.000    0.000)     TRANSLA (  0.000    0.000   -0.000)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED ( -2.419   -7.257    0.000)     LOCATED ( -7.257   -4.838    0.000)
+
+   NO. 275 INVERSE 180    ORDER   6        NO. 276 INVERSE  83    ORDER   6
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA ( -0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -2.419   -2.419    0.000)     LOCATED (  2.419   -4.838    0.000)
+
+   NO. 277 INVERSE 181    ORDER   2        NO. 278 INVERSE 230    ORDER   2
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+    1.000   0.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+    0.000   0.000   1.000    -2.419         0.000   0.000   1.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -3.629   -3.629   -2.419)     TRANSLA (  1.210   -1.210   -2.419)
+ uvw/hkl (  1.000   -1.000    0.000)     uvw/hkl (  1.000    1.000    0.000)
+ LOCATED (  1.210    0.000    0.000)     LOCATED ( -3.629    0.000    0.000)
+
+   NO. 279 INVERSE 184    ORDER   4        NO. 280 INVERSE 231    ORDER   4
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+    0.000   0.000  -1.000    -2.419         0.000   0.000  -1.000    -2.419
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA ( -0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED (  1.210   -3.629   -1.210)     LOCATED ( -3.629   -1.210   -1.210)
+
+   NO. 281 INVERSE 329    ORDER   2        NO. 282 INVERSE 282    ORDER   2
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000   1.000    -4.838         0.000   1.000   0.000    -4.838
+    0.000   1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -2.419   -3.629   -3.629)     TRANSLA ( -2.419   -4.838   -2.419)
+ uvw/hkl (  0.000   -1.000    1.000)     uvw/hkl (  1.000    0.000   -1.000)
+ LOCATED (  0.000   -1.210    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO. 283 INVERSE  93    ORDER   4        NO. 284 INVERSE 142    ORDER   4
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000  -1.000    -4.838         0.000  -1.000   0.000    -4.838
+    0.000   1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED ( -1.210   -4.838    0.000)     LOCATED ( -2.419   -2.419    0.000)
+
+   NO. 285 INVERSE 331    ORDER   4        NO. 286 INVERSE 140    ORDER   4
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000   1.000    -4.838         0.000  -1.000   0.000    -4.838
+    0.000  -1.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000   -0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED ( -1.210   -4.838    0.000)     LOCATED ( -2.419   -2.419    0.000)
+
+   NO. 287 INVERSE  95    ORDER   2        NO. 288 INVERSE 288    ORDER   2
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000  -1.000    -4.838         0.000   1.000   0.000    -4.838
+    0.000  -1.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -2.419   -1.210    1.210)     TRANSLA (  0.000   -4.838   -0.000)
+ uvw/hkl (  0.000   -1.000   -1.000)     uvw/hkl (  1.000    0.000    1.000)
+ LOCATED (  0.000   -3.629    0.000)     LOCATED ( -2.419    0.000    0.000)
+
+   NO. 289 INVERSE 289    ORDER   1        NO. 290 INVERSE 290    ORDER   2
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   0.000   1.000    -4.838         0.000   0.000   1.000    -4.838
+             OPERATION E(   1)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG)   0.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -2.419   -2.419   -4.838)     TRANSLA (  0.000    0.000   -4.838)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000    4.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED ( -1.210   -1.210    0.000)
+
+   NO. 291 INVERSE  51    ORDER   2        NO. 292 INVERSE  52    ORDER   2
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   0.000  -1.000    -4.838         0.000   0.000  -1.000    -4.838
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -2.419    0.000    0.000)     TRANSLA (  0.000   -2.419    0.000)
+ uvw/hkl (  4.000    0.000    0.000)     uvw/hkl (  0.000   -4.000    0.000)
+ LOCATED (  0.000   -1.210   -2.419)     LOCATED ( -1.210    0.000   -2.419)
+
+   NO. 293 INVERSE 246    ORDER   3        NO. 294 INVERSE 149    ORDER   3
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -3.225   -3.225   -3.225)     TRANSLA ( -3.225   -3.225   -3.225)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED (  0.806    1.613    0.000)     LOCATED (  1.613    0.806    0.000)
+
+   NO. 295 INVERSE 248    ORDER   3        NO. 296 INVERSE 199    ORDER   3
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  1.613   -1.613   -1.613)     TRANSLA (  1.613   -1.613   -1.613)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -4.032    3.225    0.000)     LOCATED ( -3.225   -0.806    0.000)
+
+   NO. 297 INVERSE 106    ORDER   3        NO. 298 INVERSE 153    ORDER   3
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -1.613    1.613   -1.613)     TRANSLA ( -1.613    1.613   -1.613)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED ( -0.806   -3.225    0.000)     LOCATED (  3.225   -4.032    0.000)
+
+   NO. 299 INVERSE 108    ORDER   3        NO. 300 INVERSE 203    ORDER   3
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED ( -2.419   -4.838    0.000)     LOCATED ( -4.838   -2.419    0.000)
+
+   NO. 301 INVERSE 301    ORDER   2        NO. 302 INVERSE 302    ORDER   2
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000   0.000  -1.000    -4.838         0.000   0.000  -1.000    -4.838
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000   -0.000    0.000)     TRANSLA ( -2.419   -2.419    0.000)
+ uvw/hkl (  2.000   -2.000    0.000)     uvw/hkl ( -2.000   -2.000    0.000)
+ LOCATED ( -2.419    0.000   -2.419)     LOCATED (  0.000    0.000   -2.419)
+
+   NO. 303 INVERSE  64    ORDER   4        NO. 304 INVERSE  63    ORDER   4
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000   0.000   1.000    -4.838         0.000   0.000   1.000    -4.838
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000   -4.838)     TRANSLA (  0.000    0.000   -4.838)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED ( -2.419    0.000    0.000)     LOCATED (  0.000   -2.419    0.000)
+
+   NO. 305 INVERSE 257    ORDER   2        NO. 306 INVERSE 162    ORDER   2
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000  -1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000    1.210   -1.210)     TRANSLA (  1.210    0.000   -1.210)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED ( -1.210   -3.629    0.000)     LOCATED ( -3.629   -1.210    0.000)
+
+   NO. 307 INVERSE 261    ORDER   4        NO. 308 INVERSE 214    ORDER   4
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000  -1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA ( -2.419    0.000    0.000)     TRANSLA (  0.000   -2.419    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000   -3.629   -1.210)     LOCATED (  1.210    0.000   -3.629)
+
+   NO. 309 INVERSE 115    ORDER   4        NO. 310 INVERSE 164    ORDER   4
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA ( -2.419   -0.000    0.000)     TRANSLA (  0.000   -2.419    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000    1.210   -3.629)     LOCATED ( -3.629    0.000   -1.210)
+
+   NO. 311 INVERSE 119    ORDER   2        NO. 312 INVERSE 216    ORDER   2
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000   -3.629   -3.629)     TRANSLA ( -3.629    0.000   -3.629)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED ( -1.210    1.210    0.000)     LOCATED (  1.210   -1.210    0.000)
+
+   NO. 313 INVERSE 313    ORDER   2        NO. 314 INVERSE 314    ORDER   2
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   0.000  -1.000    -4.838         0.000   0.000  -1.000    -4.838
+             OPERATION I(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG) 180.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA ( -2.419   -2.419    0.000)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000   -2.000)
+ LOCATED ( -1.210   -1.210   -2.419)     LOCATED (  0.000    0.000   -2.419)
+
+   NO. 315 INVERSE  75    ORDER   2        NO. 316 INVERSE  76    ORDER   2
+   -1.000   0.000   0.000    -2.419         1.000   0.000   0.000    -2.419
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   0.000   1.000    -4.838         0.000   0.000   1.000    -4.838
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000   -2.419   -4.838)     TRANSLA ( -2.419    0.000   -4.838)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED ( -1.210    0.000    0.000)     LOCATED (  0.000   -1.210    0.000)
+
+   NO. 317 INVERSE 270    ORDER   6        NO. 318 INVERSE 173    ORDER   6
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED ( -2.419   -0.000    0.000)     LOCATED (  0.000   -2.419    0.000)
+
+   NO. 319 INVERSE 272    ORDER   6        NO. 320 INVERSE 223    ORDER   6
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000  -1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000   -0.000)     TRANSLA (  0.000   -0.000    0.000)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED ( -2.419   -4.838    0.000)     LOCATED ( -4.838   -2.419   -0.000)
+
+   NO. 321 INVERSE 130    ORDER   6        NO. 322 INVERSE 177    ORDER   6
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA ( -0.000   -0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED ( -2.419   -4.838    0.000)     LOCATED ( -4.838   -2.419    0.000)
+
+   NO. 323 INVERSE 132    ORDER   6        NO. 324 INVERSE 227    ORDER   6
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000   -0.000    0.000)     TRANSLA ( -0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -2.419    0.000    0.000)     LOCATED (  0.000   -2.419    0.000)
+
+   NO. 325 INVERSE 325    ORDER   2        NO. 326 INVERSE 326    ORDER   2
+    0.000   1.000   0.000    -2.419         0.000  -1.000   0.000    -2.419
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000   0.000   1.000    -4.838         0.000   0.000   1.000    -4.838
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -2.419   -2.419   -4.838)     TRANSLA (  0.000   -0.000   -4.838)
+ uvw/hkl (  1.000   -1.000    0.000)     uvw/hkl (  1.000    1.000    0.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED ( -2.419    0.000    0.000)
+
+   NO. 327 INVERSE  88    ORDER   4        NO. 328 INVERSE  87    ORDER   4
+    0.000  -1.000   0.000    -2.419         0.000   1.000   0.000    -2.419
+    1.000   0.000   0.000    -2.419        -1.000   0.000   0.000    -2.419
+    0.000   0.000  -1.000    -4.838         0.000   0.000  -1.000    -4.838
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED (  0.000   -2.419   -2.419)     LOCATED ( -2.419    0.000   -2.419)
+
+   NO. 329 INVERSE 281    ORDER   2        NO. 330 INVERSE 186    ORDER   2
+    1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000   1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -2.419   -3.629   -3.629)     TRANSLA ( -3.629   -2.419   -3.629)
+ uvw/hkl (  0.000   -1.000    1.000)     uvw/hkl (  1.000    0.000   -1.000)
+ LOCATED (  0.000    1.210    0.000)     LOCATED (  1.210    0.000    0.000)
+
+   NO. 331 INVERSE 285    ORDER   4        NO. 332 INVERSE 238    ORDER   4
+   -1.000   0.000   0.000    -2.419         0.000   0.000   1.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000   1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000   -0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED ( -1.210   -2.419    0.000)     LOCATED ( -2.419   -1.210    0.000)
+
+   NO. 333 INVERSE 139    ORDER   4        NO. 334 INVERSE 188    ORDER   4
+   -1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000   1.000    -2.419         0.000  -1.000   0.000    -2.419
+    0.000  -1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED ( -1.210   -2.419    0.000)     LOCATED ( -2.419   -1.210    0.000)
+
+   NO. 335 INVERSE 143    ORDER   2        NO. 336 INVERSE 240    ORDER   2
+    1.000   0.000   0.000    -2.419         0.000   0.000  -1.000    -2.419
+    0.000   0.000  -1.000    -2.419         0.000   1.000   0.000    -2.419
+    0.000  -1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -2.419    1.210   -1.210)     TRANSLA (  1.210   -2.419   -1.210)
+ uvw/hkl (  0.000   -1.000   -1.000)     uvw/hkl (  1.000    0.000    1.000)
+ LOCATED (  0.000   -3.629    0.000)     LOCATED ( -3.629    0.000    0.000)
+
+   NO. 337 INVERSE 337    ORDER   1        NO. 338 INVERSE 338    ORDER   2
+    1.000   0.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+    0.000   1.000   0.000    -4.838         0.000  -1.000   0.000    -4.838
+    0.000   0.000   1.000    -4.838         0.000   0.000   1.000    -4.838
+             OPERATION E(   1)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG)   0.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -4.838   -4.838   -4.838)     TRANSLA (  0.000    0.000   -4.838)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000    4.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED ( -2.419   -2.419    0.000)
+
+   NO. 339 INVERSE 339    ORDER   2        NO. 340 INVERSE 340    ORDER   2
+    1.000   0.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+    0.000  -1.000   0.000    -4.838         0.000   1.000   0.000    -4.838
+    0.000   0.000  -1.000    -4.838         0.000   0.000  -1.000    -4.838
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA ( -4.838    0.000    0.000)     TRANSLA (  0.000   -4.838    0.000)
+ uvw/hkl (  4.000    0.000    0.000)     uvw/hkl (  0.000   -4.000    0.000)
+ LOCATED (  0.000   -2.419   -2.419)     LOCATED ( -2.419    0.000   -2.419)
+
+   NO. 341 INVERSE 342    ORDER   3        NO. 342 INVERSE 341    ORDER   3
+    0.000   0.000   1.000    -4.838         0.000   1.000   0.000    -4.838
+    1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -4.838   -4.838   -4.838)     TRANSLA ( -4.838   -4.838   -4.838)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO. 343 INVERSE 344    ORDER   3        NO. 344 INVERSE 343    ORDER   3
+    0.000   0.000  -1.000    -4.838         0.000  -1.000   0.000    -4.838
+   -1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA (  1.613   -1.613   -1.613)     TRANSLA (  1.613   -1.613   -1.613)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -6.451    3.225    0.000)     LOCATED ( -3.225   -3.225    0.000)
+
+   NO. 345 INVERSE 346    ORDER   3        NO. 346 INVERSE 345    ORDER   3
+    0.000   0.000   1.000    -4.838         0.000  -1.000   0.000    -4.838
+   -1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000  -1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -1.613    1.613   -1.613)     TRANSLA ( -1.613    1.613   -1.613)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED ( -3.225   -3.225    0.000)     LOCATED (  3.225   -6.451    0.000)
+
+   NO. 347 INVERSE 348    ORDER   3        NO. 348 INVERSE 347    ORDER   3
+    0.000   0.000  -1.000    -4.838         0.000   1.000   0.000    -4.838
+    1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000  -1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION C(   3)                       OPERATION C(   3)
+ DETERMINANT 1.; ROTATION(DEG) 120.      DETERMINANT 1.; ROTATION(DEG) 120.
+ TRANSLA ( -1.613   -1.613    1.613)     TRANSLA ( -1.613   -1.613    1.613)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED ( -3.225   -6.451    0.000)     LOCATED ( -6.451   -3.225    0.000)
+
+   NO. 349 INVERSE 349    ORDER   2        NO. 350 INVERSE 350    ORDER   2
+    0.000  -1.000   0.000    -4.838         0.000   1.000   0.000    -4.838
+   -1.000   0.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+    0.000   0.000  -1.000    -4.838         0.000   0.000  -1.000    -4.838
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000   -0.000    0.000)     TRANSLA ( -4.838   -4.838    0.000)
+ uvw/hkl (  2.000   -2.000    0.000)     uvw/hkl ( -2.000   -2.000    0.000)
+ LOCATED ( -4.838    0.000   -2.419)     LOCATED (  0.000    0.000   -2.419)
+
+   NO. 351 INVERSE 352    ORDER   4        NO. 352 INVERSE 351    ORDER   4
+    0.000   1.000   0.000    -4.838         0.000  -1.000   0.000    -4.838
+   -1.000   0.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+    0.000   0.000   1.000    -4.838         0.000   0.000   1.000    -4.838
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000   -4.838)     TRANSLA (  0.000    0.000   -4.838)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED ( -4.838    0.000    0.000)     LOCATED (  0.000   -4.838    0.000)
+
+   NO. 353 INVERSE 353    ORDER   2        NO. 354 INVERSE 354    ORDER   2
+   -1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000   0.000  -1.000    -4.838         0.000  -1.000   0.000    -4.838
+    0.000  -1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000   -0.000)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED ( -2.419   -4.838    0.000)     LOCATED ( -4.838   -2.419    0.000)
+
+   NO. 355 INVERSE 357    ORDER   4        NO. 356 INVERSE 358    ORDER   4
+    1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000   0.000   1.000    -4.838         0.000   1.000   0.000    -4.838
+    0.000  -1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA ( -4.838    0.000    0.000)     TRANSLA (  0.000   -4.838    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000   -4.838    0.000)     LOCATED (  0.000    0.000   -4.838)
+
+   NO. 357 INVERSE 355    ORDER   4        NO. 358 INVERSE 356    ORDER   4
+    1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   0.000  -1.000    -4.838         0.000   1.000   0.000    -4.838
+    0.000   1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION C(   4)                       OPERATION C(   4)
+ DETERMINANT 1.; ROTATION(DEG)  90.      DETERMINANT 1.; ROTATION(DEG)  90.
+ TRANSLA ( -4.838    0.000    0.000)     TRANSLA (  0.000   -4.838    0.000)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED (  0.000    0.000   -4.838)     LOCATED ( -4.838    0.000    0.000)
+
+   NO. 359 INVERSE 359    ORDER   2        NO. 360 INVERSE 360    ORDER   2
+   -1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   0.000   1.000    -4.838         0.000  -1.000   0.000    -4.838
+    0.000   1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION C(   2)                       OPERATION C(   2)
+ DETERMINANT 1.; ROTATION(DEG) 180.      DETERMINANT 1.; ROTATION(DEG) 180.
+ TRANSLA (  0.000   -4.838   -4.838)     TRANSLA ( -4.838    0.000   -4.838)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED ( -2.419    0.000    0.000)     LOCATED (  0.000   -2.419    0.000)
+
+   NO. 361 INVERSE 361    ORDER   2        NO. 362 INVERSE 362    ORDER   2
+   -1.000   0.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+    0.000  -1.000   0.000    -4.838         0.000   1.000   0.000    -4.838
+    0.000   0.000  -1.000    -4.838         0.000   0.000  -1.000    -4.838
+             OPERATION I(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG) 180.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA ( -4.838   -4.838    0.000)
+ uvw/hkl (  0.000    0.000    0.000)     uvw/hkl (  0.000    0.000   -2.000)
+ LOCATED ( -2.419   -2.419   -2.419)     LOCATED (  0.000    0.000   -2.419)
+
+   NO. 363 INVERSE 363    ORDER   2        NO. 364 INVERSE 364    ORDER   2
+   -1.000   0.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+    0.000   1.000   0.000    -4.838         0.000  -1.000   0.000    -4.838
+    0.000   0.000   1.000    -4.838         0.000   0.000   1.000    -4.838
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA (  0.000   -4.838   -4.838)     TRANSLA ( -4.838    0.000   -4.838)
+ uvw/hkl (  2.000    0.000    0.000)     uvw/hkl (  0.000   -2.000    0.000)
+ LOCATED ( -2.419    0.000    0.000)     LOCATED (  0.000   -2.419    0.000)
+
+   NO. 365 INVERSE 366    ORDER   6        NO. 366 INVERSE 365    ORDER   6
+    0.000   0.000  -1.000    -4.838         0.000  -1.000   0.000    -4.838
+   -1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000  -1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl ( -1.000    1.000    1.000)     uvw/hkl (  1.000   -1.000    1.000)
+ LOCATED ( -4.838   -0.000    0.000)     LOCATED (  0.000   -4.838    0.000)
+
+   NO. 367 INVERSE 368    ORDER   6        NO. 368 INVERSE 367    ORDER   6
+    0.000   0.000   1.000    -4.838         0.000   1.000   0.000    -4.838
+    1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000  -1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000    0.000   -0.000)     TRANSLA (  0.000   -0.000    0.000)
+ uvw/hkl (  1.000    1.000    1.000)     uvw/hkl ( -1.000   -1.000    1.000)
+ LOCATED ( -4.838   -9.676    0.000)     LOCATED ( -9.676   -4.838    0.000)
+
+   NO. 369 INVERSE 370    ORDER   6        NO. 370 INVERSE 369    ORDER   6
+    0.000   0.000  -1.000    -4.838         0.000   1.000   0.000    -4.838
+    1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA ( -0.000    0.000    0.000)     TRANSLA (  0.000    0.000   -0.000)
+ uvw/hkl ( -1.000   -1.000    1.000)     uvw/hkl (  1.000    1.000    1.000)
+ LOCATED ( -4.838   -9.676    0.000)     LOCATED ( -9.676   -4.838    0.000)
+
+   NO. 371 INVERSE 372    ORDER   6        NO. 372 INVERSE 371    ORDER   6
+    0.000   0.000   1.000    -4.838         0.000  -1.000   0.000    -4.838
+   -1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION S(   6)                       OPERATION S(   6)
+ DETERMINANT-1.; ROTATION(DEG)  60.      DETERMINANT-1.; ROTATION(DEG)  60.
+ TRANSLA (  0.000   -0.000    0.000)     TRANSLA ( -0.000    0.000    0.000)
+ uvw/hkl (  1.000   -1.000    1.000)     uvw/hkl ( -1.000    1.000    1.000)
+ LOCATED ( -4.838   -0.000    0.000)     LOCATED (  0.000   -4.838    0.000)
+
+   NO. 373 INVERSE 373    ORDER   2        NO. 374 INVERSE 374    ORDER   2
+    0.000   1.000   0.000    -4.838         0.000  -1.000   0.000    -4.838
+    1.000   0.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+    0.000   0.000   1.000    -4.838         0.000   0.000   1.000    -4.838
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -4.838   -4.838   -4.838)     TRANSLA (  0.000   -0.000   -4.838)
+ uvw/hkl (  1.000   -1.000    0.000)     uvw/hkl (  1.000    1.000    0.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED ( -4.838    0.000    0.000)
+
+   NO. 375 INVERSE 376    ORDER   4        NO. 376 INVERSE 375    ORDER   4
+    0.000  -1.000   0.000    -4.838         0.000   1.000   0.000    -4.838
+    1.000   0.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+    0.000   0.000  -1.000    -4.838         0.000   0.000  -1.000    -4.838
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    0.000    2.000)     uvw/hkl (  0.000    0.000    2.000)
+ LOCATED (  0.000   -4.838   -2.419)     LOCATED ( -4.838    0.000   -2.419)
+
+   NO. 377 INVERSE 377    ORDER   2        NO. 378 INVERSE 378    ORDER   2
+    1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   0.000   1.000    -4.838         0.000   1.000   0.000    -4.838
+    0.000   1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -4.838   -4.838   -4.838)     TRANSLA ( -4.838   -4.838   -4.838)
+ uvw/hkl (  0.000   -1.000    1.000)     uvw/hkl (  1.000    0.000   -1.000)
+ LOCATED (  0.000    0.000    0.000)     LOCATED (  0.000    0.000    0.000)
+
+   NO. 379 INVERSE 381    ORDER   4        NO. 380 INVERSE 382    ORDER   4
+   -1.000   0.000   0.000    -4.838         0.000   0.000   1.000    -4.838
+    0.000   0.000  -1.000    -4.838         0.000  -1.000   0.000    -4.838
+    0.000   1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000   -2.000    2.000)     uvw/hkl (  2.000    0.000    2.000)
+ LOCATED ( -2.419   -4.838    0.000)     LOCATED ( -4.838   -2.419    0.000)
+
+   NO. 381 INVERSE 379    ORDER   4        NO. 382 INVERSE 380    ORDER   4
+   -1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000   0.000   1.000    -4.838         0.000  -1.000   0.000    -4.838
+    0.000  -1.000   0.000    -4.838         1.000   0.000   0.000    -4.838
+             OPERATION S(   4)                       OPERATION S(   4)
+ DETERMINANT-1.; ROTATION(DEG)  90.      DETERMINANT-1.; ROTATION(DEG)  90.
+ TRANSLA (  0.000    0.000    0.000)     TRANSLA (  0.000    0.000    0.000)
+ uvw/hkl (  0.000    2.000    2.000)     uvw/hkl ( -2.000    0.000    2.000)
+ LOCATED ( -2.419   -4.838    0.000)     LOCATED ( -4.838   -2.419    0.000)
+
+   NO. 383 INVERSE 383    ORDER   2        NO. 384 INVERSE 384    ORDER   2
+    1.000   0.000   0.000    -4.838         0.000   0.000  -1.000    -4.838
+    0.000   0.000  -1.000    -4.838         0.000   1.000   0.000    -4.838
+    0.000  -1.000   0.000    -4.838        -1.000   0.000   0.000    -4.838
+             OPERATION M(   2)                       OPERATION M(   2)
+ DETERMINANT-1.; ROTATION(DEG)   0.      DETERMINANT-1.; ROTATION(DEG)   0.
+ TRANSLA ( -4.838    0.000    0.000)     TRANSLA (  0.000   -4.838   -0.000)
+ uvw/hkl (  0.000   -1.000   -1.000)     uvw/hkl (  1.000    0.000    1.000)
+ LOCATED (  0.000   -4.838    0.000)     LOCATED ( -4.838    0.000    0.000)
+
+ GEOMETRY FOR WAVE FUNCTION - DIMENSIONALITY OF THE SYSTEM    3
+ (NON PERIODIC DIRECTION: LATTICE PARAMETER FORMALLY SET TO 500)
+ *******************************************************************************
+ LATTICE PARAMETERS (ANGSTROMS AND DEGREES) - BOHR = 0.5291772083 ANGSTROM
+ PRIMITIVE CELL - CENTRING CODE 1/0 VOLUME=   226.502991 - DENSITY  3.282 g/cm^3
+         A              B              C           ALPHA      BETA       GAMMA 
+     6.84220864     6.84220864     6.84220864    60.000000  60.000000  60.000000
+ *******************************************************************************
+ ATOMS IN THE ASYMMETRIC UNIT    2 - ATOMS IN THE UNIT CELL:   16
+     ATOM                 X/A                 Y/B                 Z/C    
+ *******************************************************************************
+      1 T  20 CA    0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+      2 F  20 CA    0.000000000000E+00  0.000000000000E+00 -5.000000000000E-01
+      3 F  20 CA    0.000000000000E+00 -5.000000000000E-01  0.000000000000E+00
+      4 F  20 CA   -2.775557561563E-17 -5.000000000000E-01 -5.000000000000E-01
+      5 F  20 CA    5.000000000000E-01  0.000000000000E+00  0.000000000000E+00
+      6 F  20 CA    5.000000000000E-01 -5.551115123126E-17 -5.000000000000E-01
+      7 F  20 CA    5.000000000000E-01  5.000000000000E-01  1.110223024625E-16
+      8 F  20 CA    5.000000000000E-01 -5.000000000000E-01 -5.000000000000E-01
+      9 T   8 O     2.500000000000E-01  2.500000000000E-01  2.500000000000E-01
+     10 F   8 O     2.500000000000E-01  2.500000000000E-01 -2.500000000000E-01
+     11 F   8 O     2.500000000000E-01 -2.500000000000E-01  2.500000000000E-01
+     12 F   8 O     2.500000000000E-01 -2.500000000000E-01 -2.500000000000E-01
+     13 F   8 O    -2.500000000000E-01  2.500000000000E-01  2.500000000000E-01
+     14 F   8 O    -2.500000000000E-01  2.500000000000E-01 -2.500000000000E-01
+     15 F   8 O    -2.500000000000E-01 -2.500000000000E-01  2.500000000000E-01
+     16 F   8 O    -2.500000000000E-01 -2.500000000000E-01 -2.500000000000E-01
+
+ T = ATOM BELONGING TO THE ASYMMETRIC UNIT
+
+ ****  384 SYMMOPS - TRANSLATORS IN FRACTIONAL UNITS
+ **** MATRICES AND TRANSLATORS IN THE CRYSTALLOGRAPHIC REFERENCE FRAME
+   V INV                    ROTATION MATRICES                   TRANSLATORS
+   1   1  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   2   2  0.00  1.00 -0.00  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  0.00  0.00
+   3   3 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00  1.00  0.00  0.00  0.00  0.00
+   4   4  0.00 -0.00  1.00 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00  0.00
+   5   6  0.00 -0.00  1.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00
+   6   5  0.00  1.00 -0.00  0.00  0.00  1.00  1.00  0.00  0.00  0.00  0.00  0.00
+   7   8  1.00  0.00  0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00  0.00  0.00  0.00
+   8   7  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00  0.00  0.00
+   9  10 -1.00 -1.00 -1.00  0.00  1.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  10   9  0.00 -0.00  1.00  0.00  1.00  0.00 -1.00 -1.00 -1.00  0.00  0.00  0.00
+  11  12  0.00  1.00 -0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00  0.00  0.00
+  12  11 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+  13  13  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+  14  14 -1.00 -0.00 -0.00  0.00 -1.00  0.00  1.00  1.00  1.00  0.00  0.00  0.00
+  15  16  0.00  0.00 -1.00  1.00  1.00  1.00  0.00 -1.00  0.00  0.00  0.00  0.00
+  16  15  1.00  1.00  1.00  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00  0.00  0.00
+  17  17 -1.00 -0.00 -0.00  0.00  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00
+  18  18  0.00  0.00 -1.00  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00  0.00
+  19  21  0.00  0.00 -1.00 -1.00  0.00  0.00  1.00  1.00  1.00  0.00  0.00  0.00
+  20  22  1.00  1.00  1.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00  0.00
+  21  19  0.00 -1.00  0.00  1.00  1.00  1.00 -1.00  0.00  0.00  0.00  0.00  0.00
+  22  20  0.00 -1.00  0.00  0.00  0.00 -1.00  1.00  1.00  1.00  0.00  0.00  0.00
+  23  23  1.00  1.00  1.00  0.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+  24  24 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00  0.00 -1.00  0.00  0.00  0.00
+  25  25 -1.00 -0.00 -0.00  0.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+  26  26  0.00 -1.00  0.00 -1.00  0.00  0.00  1.00  1.00  1.00  0.00  0.00  0.00
+  27  27  1.00  1.00  1.00  0.00  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00
+  28  28  0.00  0.00 -1.00  1.00  1.00  1.00 -1.00  0.00  0.00  0.00  0.00  0.00
+  29  30  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00  0.00
+  30  29  0.00 -1.00  0.00  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00  0.00  0.00
+  31  32 -1.00 -0.00 -0.00  0.00  0.00 -1.00  1.00  1.00  1.00  0.00  0.00  0.00
+  32  31 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00 -1.00  0.00  0.00  0.00  0.00
+  33  34  1.00  1.00  1.00  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00  0.00
+  34  33  0.00  0.00 -1.00  0.00 -1.00  0.00  1.00  1.00  1.00  0.00  0.00  0.00
+  35  36  0.00 -1.00  0.00  1.00  1.00  1.00  0.00  0.00 -1.00  0.00  0.00  0.00
+  36  35  1.00  1.00  1.00 -1.00  0.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+  37  37  0.00  1.00 -0.00  1.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+  38  38  1.00  0.00  0.00  0.00  1.00  0.00 -1.00 -1.00 -1.00  0.00  0.00  0.00
+  39  40  0.00 -0.00  1.00 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00  0.00  0.00
+  40  39 -1.00 -1.00 -1.00  0.00  0.00  1.00  1.00  0.00  0.00  0.00  0.00  0.00
+  41  41  1.00  0.00  0.00  0.00  0.00  1.00  0.00  1.00  0.00  0.00  0.00  0.00
+  42  42  0.00 -0.00  1.00  0.00  1.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  43  45  0.00 -0.00  1.00  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  0.00  0.00
+  44  46 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00
+  45  43  0.00  1.00 -0.00 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00  0.00
+  46  44  0.00  1.00 -0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00  0.00  0.00  0.00
+  47  47 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+  48  48  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00  0.00  0.00
+  49  49  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00 -0.50
+  50  50  0.00  1.00 -0.00  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  0.00 -0.50
+  51 291 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00  1.00  0.00  0.00  0.00 -0.50
+  52 292  0.00 -0.00  1.00 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00 -0.50
+  53 102  0.00 -0.00  1.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00 -0.50
+  54 197  0.00  1.00 -0.00  0.00  0.00  1.00  1.00  0.00  0.00  0.00  0.00 -0.50
+  55 104  1.00  0.00  0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00  0.00  0.00 -0.50
+  56 151  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00  0.00 -0.50
+  57 250 -1.00 -1.00 -1.00  0.00  1.00  0.00  1.00  0.00  0.00  0.00  0.00 -0.50
+  58 201  0.00 -0.00  1.00  0.00  1.00  0.00 -1.00 -1.00 -1.00  0.00  0.00 -0.50
+  59 252  0.00  1.00 -0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00  0.00 -0.50
+  60 155 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00 -0.50
+  61  61  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -1.00  0.00  0.00 -0.50
+  62  62 -1.00 -0.00 -0.00  0.00 -1.00  0.00  1.00  1.00  1.00  0.00  0.00 -0.50
+  63 304  0.00  0.00 -1.00  1.00  1.00  1.00  0.00 -1.00  0.00  0.00  0.00 -0.50
+  64 303  1.00  1.00  1.00  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00  0.00 -0.50
+  65 113 -1.00 -0.00 -0.00  0.00  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00 -0.50
+  66 210  0.00  0.00 -1.00  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -0.50
+  67 117  0.00  0.00 -1.00 -1.00  0.00  0.00  1.00  1.00  1.00  0.00  0.00 -0.50
+  68 166  1.00  1.00  1.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00 -0.50
+  69 259  0.00 -1.00  0.00  1.00  1.00  1.00 -1.00  0.00  0.00  0.00  0.00 -0.50
+  70 212  0.00 -1.00  0.00  0.00  0.00 -1.00  1.00  1.00  1.00  0.00  0.00 -0.50
+  71 263  1.00  1.00  1.00  0.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00 -0.50
+  72 168 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00  0.00 -1.00  0.00  0.00 -0.50
+  73  73 -1.00 -0.00 -0.00  0.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00 -0.50
+  74  74  0.00 -1.00  0.00 -1.00  0.00  0.00  1.00  1.00  1.00  0.00  0.00 -0.50
+  75 315  1.00  1.00  1.00  0.00  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00 -0.50
+  76 316  0.00  0.00 -1.00  1.00  1.00  1.00 -1.00  0.00  0.00  0.00  0.00 -0.50
+  77 126  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00 -0.50
+  78 221  0.00 -1.00  0.00  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00  0.00 -0.50
+  79 128 -1.00 -0.00 -0.00  0.00  0.00 -1.00  1.00  1.00  1.00  0.00  0.00 -0.50
+  80 175 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00 -1.00  0.00  0.00  0.00 -0.50
+  81 274  1.00  1.00  1.00  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -0.50
+  82 225  0.00  0.00 -1.00  0.00 -1.00  0.00  1.00  1.00  1.00  0.00  0.00 -0.50
+  83 276  0.00 -1.00  0.00  1.00  1.00  1.00  0.00  0.00 -1.00  0.00  0.00 -0.50
+  84 179  1.00  1.00  1.00 -1.00  0.00  0.00  0.00  0.00 -1.00  0.00  0.00 -0.50
+  85  85  0.00  1.00 -0.00  1.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00 -0.50
+  86  86  1.00  0.00  0.00  0.00  1.00  0.00 -1.00 -1.00 -1.00  0.00  0.00 -0.50
+  87 328  0.00 -0.00  1.00 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00  0.00 -0.50
+  88 327 -1.00 -1.00 -1.00  0.00  0.00  1.00  1.00  0.00  0.00  0.00  0.00 -0.50
+  89 137  1.00  0.00  0.00  0.00  0.00  1.00  0.00  1.00  0.00  0.00  0.00 -0.50
+  90 234  0.00 -0.00  1.00  0.00  1.00  0.00  1.00  0.00  0.00  0.00  0.00 -0.50
+  91 141  0.00 -0.00  1.00  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  0.00 -0.50
+  92 190 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00 -0.50
+  93 283  0.00  1.00 -0.00 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00 -0.50
+  94 236  0.00  1.00 -0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00  0.00  0.00 -0.50
+  95 287 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00 -0.50
+  96 192  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00  0.00 -0.50
+  97  97  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00 -0.50  0.00
+  98 242  0.00  1.00 -0.00  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00 -0.50  0.00
+  99 243 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00  1.00  0.00  0.00 -0.50  0.00
+ 100 100  0.00 -0.00  1.00 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00 -0.50  0.00
+ 101 198  0.00 -0.00  1.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00 -0.50  0.00
+ 102  53  0.00  1.00 -0.00  0.00  0.00  1.00  1.00  0.00  0.00  0.00 -0.50  0.00
+ 103 152  1.00  0.00  0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00  0.00 -0.50  0.00
+ 104  55  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00 -0.50  0.00
+ 105 154 -1.00 -1.00 -1.00  0.00  1.00  0.00  1.00  0.00  0.00  0.00 -0.50  0.00
+ 106 297  0.00 -0.00  1.00  0.00  1.00  0.00 -1.00 -1.00 -1.00  0.00 -0.50  0.00
+ 107 204  0.00  1.00 -0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00 -0.50  0.00
+ 108 299 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00  1.00  0.00 -0.50  0.00
+ 109 205  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -1.00  0.00 -0.50  0.00
+ 110 158 -1.00 -0.00 -0.00  0.00 -1.00  0.00  1.00  1.00  1.00  0.00 -0.50  0.00
+ 111 208  0.00  0.00 -1.00  1.00  1.00  1.00  0.00 -1.00  0.00  0.00 -0.50  0.00
+ 112 159  1.00  1.00  1.00  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00 -0.50  0.00
+ 113  65 -1.00 -0.00 -0.00  0.00  0.00 -1.00  0.00 -1.00  0.00  0.00 -0.50  0.00
+ 114 114  0.00  0.00 -1.00  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00 -0.50  0.00
+ 115 309  0.00  0.00 -1.00 -1.00  0.00  0.00  1.00  1.00  1.00  0.00 -0.50  0.00
+ 116 262  1.00  1.00  1.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00 -0.50  0.00
+ 117  67  0.00 -1.00  0.00  1.00  1.00  1.00 -1.00  0.00  0.00  0.00 -0.50  0.00
+ 118 260  0.00 -1.00  0.00  0.00  0.00 -1.00  1.00  1.00  1.00  0.00 -0.50  0.00
+ 119 311  1.00  1.00  1.00  0.00 -1.00  0.00  0.00  0.00 -1.00  0.00 -0.50  0.00
+ 120 120 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00  0.00 -1.00  0.00 -0.50  0.00
+ 121 121 -1.00 -0.00 -0.00  0.00 -1.00  0.00  0.00  0.00 -1.00  0.00 -0.50  0.00
+ 122 266  0.00 -1.00  0.00 -1.00  0.00  0.00  1.00  1.00  1.00  0.00 -0.50  0.00
+ 123 267  1.00  1.00  1.00  0.00  0.00 -1.00  0.00 -1.00  0.00  0.00 -0.50  0.00
+ 124 124  0.00  0.00 -1.00  1.00  1.00  1.00 -1.00  0.00  0.00  0.00 -0.50  0.00
+ 125 222  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00 -0.50  0.00
+ 126  77  0.00 -1.00  0.00  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00 -0.50  0.00
+ 127 176 -1.00 -0.00 -0.00  0.00  0.00 -1.00  1.00  1.00  1.00  0.00 -0.50  0.00
+ 128  79 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00 -1.00  0.00  0.00 -0.50  0.00
+ 129 178  1.00  1.00  1.00  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00 -0.50  0.00
+ 130 321  0.00  0.00 -1.00  0.00 -1.00  0.00  1.00  1.00  1.00  0.00 -0.50  0.00
+ 131 228  0.00 -1.00  0.00  1.00  1.00  1.00  0.00  0.00 -1.00  0.00 -0.50  0.00
+ 132 323  1.00  1.00  1.00 -1.00  0.00  0.00  0.00  0.00 -1.00  0.00 -0.50  0.00
+ 133 229  0.00  1.00 -0.00  1.00  0.00  0.00  0.00  0.00  1.00  0.00 -0.50  0.00
+ 134 182  1.00  0.00  0.00  0.00  1.00  0.00 -1.00 -1.00 -1.00  0.00 -0.50  0.00
+ 135 232  0.00 -0.00  1.00 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00 -0.50  0.00
+ 136 183 -1.00 -1.00 -1.00  0.00  0.00  1.00  1.00  0.00  0.00  0.00 -0.50  0.00
+ 137  89  1.00  0.00  0.00  0.00  0.00  1.00  0.00  1.00  0.00  0.00 -0.50  0.00
+ 138 138  0.00 -0.00  1.00  0.00  1.00  0.00  1.00  0.00  0.00  0.00 -0.50  0.00
+ 139 333  0.00 -0.00  1.00  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00 -0.50  0.00
+ 140 286 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00 -0.50  0.00
+ 141  91  0.00  1.00 -0.00 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00 -0.50  0.00
+ 142 284  0.00  1.00 -0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00  0.00 -0.50  0.00
+ 143 335 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00 -0.50  0.00
+ 144 144  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00 -0.50  0.00
+ 145 145  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00 -0.00 -0.50 -0.50
+ 146 194  0.00  1.00 -0.00  1.00  0.00  0.00 -1.00 -1.00 -1.00 -0.00 -0.50 -0.50
+ 147 147 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00  1.00  0.00 -0.00 -0.50 -0.50
+ 148 196  0.00 -0.00  1.00 -1.00 -1.00 -1.00  1.00  0.00  0.00 -0.00 -0.50 -0.50
+ 149 294  0.00 -0.00  1.00  1.00  0.00  0.00  0.00  1.00  0.00 -0.00 -0.50 -0.50
+ 150 245  0.00  1.00 -0.00  0.00  0.00  1.00  1.00  0.00  0.00 -0.00 -0.50 -0.50
+ 151  56  1.00  0.00  0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00 -0.00 -0.50 -0.50
+ 152 103  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  1.00  0.00 -0.00 -0.50 -0.50
+ 153 298 -1.00 -1.00 -1.00  0.00  1.00  0.00  1.00  0.00  0.00 -0.00 -0.50 -0.50
+ 154 105  0.00 -0.00  1.00  0.00  1.00  0.00 -1.00 -1.00 -1.00 -0.00 -0.50 -0.50
+ 155  60  0.00  1.00 -0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00 -0.00 -0.50 -0.50
+ 156 251 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00  1.00 -0.00 -0.50 -0.50
+ 157 253  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -1.00 -0.00 -0.50 -0.50
+ 158 110 -1.00 -0.00 -0.00  0.00 -1.00  0.00  1.00  1.00  1.00 -0.00 -0.50 -0.50
+ 159 112  0.00  0.00 -1.00  1.00  1.00  1.00  0.00 -1.00  0.00 -0.00 -0.50 -0.50
+ 160 255  1.00  1.00  1.00  0.00  0.00 -1.00 -1.00  0.00  0.00 -0.00 -0.50 -0.50
+ 161 161 -1.00 -0.00 -0.00  0.00  0.00 -1.00  0.00 -1.00  0.00 -0.00 -0.50 -0.50
+ 162 306  0.00  0.00 -1.00  0.00 -1.00  0.00 -1.00  0.00  0.00 -0.00 -0.50 -0.50
+ 163 213  0.00  0.00 -1.00 -1.00  0.00  0.00  1.00  1.00  1.00 -0.00 -0.50 -0.50
+ 164 310  1.00  1.00  1.00 -1.00  0.00  0.00  0.00 -1.00  0.00 -0.00 -0.50 -0.50
+ 165 211  0.00 -1.00  0.00  1.00  1.00  1.00 -1.00  0.00  0.00 -0.00 -0.50 -0.50
+ 166  68  0.00 -1.00  0.00  0.00  0.00 -1.00  1.00  1.00  1.00 -0.00 -0.50 -0.50
+ 167 167  1.00  1.00  1.00  0.00 -1.00  0.00  0.00  0.00 -1.00 -0.00 -0.50 -0.50
+ 168  72 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00  0.00 -1.00 -0.00 -0.50 -0.50
+ 169 169 -1.00 -0.00 -0.00  0.00 -1.00  0.00  0.00  0.00 -1.00 -0.00 -0.50 -0.50
+ 170 218  0.00 -1.00  0.00 -1.00  0.00  0.00  1.00  1.00  1.00 -0.00 -0.50 -0.50
+ 171 171  1.00  1.00  1.00  0.00  0.00 -1.00  0.00 -1.00  0.00 -0.00 -0.50 -0.50
+ 172 220  0.00  0.00 -1.00  1.00  1.00  1.00 -1.00  0.00  0.00 -0.00 -0.50 -0.50
+ 173 318  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00 -1.00  0.00 -0.00 -0.50 -0.50
+ 174 269  0.00 -1.00  0.00  0.00  0.00 -1.00 -1.00  0.00  0.00 -0.00 -0.50 -0.50
+ 175  80 -1.00 -0.00 -0.00  0.00  0.00 -1.00  1.00  1.00  1.00 -0.00 -0.50 -0.50
+ 176 127 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00 -1.00  0.00 -0.00 -0.50 -0.50
+ 177 322  1.00  1.00  1.00  0.00 -1.00  0.00 -1.00  0.00  0.00 -0.00 -0.50 -0.50
+ 178 129  0.00  0.00 -1.00  0.00 -1.00  0.00  1.00  1.00  1.00 -0.00 -0.50 -0.50
+ 179  84  0.00 -1.00  0.00  1.00  1.00  1.00  0.00  0.00 -1.00 -0.00 -0.50 -0.50
+ 180 275  1.00  1.00  1.00 -1.00  0.00  0.00  0.00  0.00 -1.00 -0.00 -0.50 -0.50
+ 181 277  0.00  1.00 -0.00  1.00  0.00  0.00  0.00  0.00  1.00 -0.00 -0.50 -0.50
+ 182 134  1.00  0.00  0.00  0.00  1.00  0.00 -1.00 -1.00 -1.00 -0.00 -0.50 -0.50
+ 183 136  0.00 -0.00  1.00 -1.00 -1.00 -1.00  0.00  1.00  0.00 -0.00 -0.50 -0.50
+ 184 279 -1.00 -1.00 -1.00  0.00  0.00  1.00  1.00  0.00  0.00 -0.00 -0.50 -0.50
+ 185 185  1.00  0.00  0.00  0.00  0.00  1.00  0.00  1.00  0.00 -0.00 -0.50 -0.50
+ 186 330  0.00 -0.00  1.00  0.00  1.00  0.00  1.00  0.00  0.00 -0.00 -0.50 -0.50
+ 187 237  0.00 -0.00  1.00  1.00  0.00  0.00 -1.00 -1.00 -1.00 -0.00 -0.50 -0.50
+ 188 334 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  1.00  0.00 -0.00 -0.50 -0.50
+ 189 235  0.00  1.00 -0.00 -1.00 -1.00 -1.00  1.00  0.00  0.00 -0.00 -0.50 -0.50
+ 190  92  0.00  1.00 -0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00 -0.00 -0.50 -0.50
+ 191 191 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00  0.00  1.00 -0.00 -0.50 -0.50
+ 192  96  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00 -0.00 -0.50 -0.50
+ 193 193  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00 -0.50  0.00  0.00
+ 194 146  0.00  1.00 -0.00  1.00  0.00  0.00 -1.00 -1.00 -1.00 -0.50  0.00  0.00
+ 195 195 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00  1.00  0.00 -0.50  0.00  0.00
+ 196 148  0.00 -0.00  1.00 -1.00 -1.00 -1.00  1.00  0.00  0.00 -0.50  0.00  0.00
+ 197  54  0.00 -0.00  1.00  1.00  0.00  0.00  0.00  1.00  0.00 -0.50  0.00  0.00
+ 198 101  0.00  1.00 -0.00  0.00  0.00  1.00  1.00  0.00  0.00 -0.50  0.00  0.00
+ 199 296  1.00  0.00  0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00 -0.50  0.00  0.00
+ 200 247  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  1.00  0.00 -0.50  0.00  0.00
+ 201  58 -1.00 -1.00 -1.00  0.00  1.00  0.00  1.00  0.00  0.00 -0.50  0.00  0.00
+ 202 249  0.00 -0.00  1.00  0.00  1.00  0.00 -1.00 -1.00 -1.00 -0.50  0.00  0.00
+ 203 300  0.00  1.00 -0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00 -0.50  0.00  0.00
+ 204 107 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00  1.00 -0.50  0.00  0.00
+ 205 109  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -1.00 -0.50  0.00  0.00
+ 206 254 -1.00 -0.00 -0.00  0.00 -1.00  0.00  1.00  1.00  1.00 -0.50  0.00  0.00
+ 207 256  0.00  0.00 -1.00  1.00  1.00  1.00  0.00 -1.00  0.00 -0.50  0.00  0.00
+ 208 111  1.00  1.00  1.00  0.00  0.00 -1.00 -1.00  0.00  0.00 -0.50  0.00  0.00
+ 209 209 -1.00 -0.00 -0.00  0.00  0.00 -1.00  0.00 -1.00  0.00 -0.50  0.00  0.00
+ 210  66  0.00  0.00 -1.00  0.00 -1.00  0.00 -1.00  0.00  0.00 -0.50  0.00  0.00
+ 211 165  0.00  0.00 -1.00 -1.00  0.00  0.00  1.00  1.00  1.00 -0.50  0.00  0.00
+ 212  70  1.00  1.00  1.00 -1.00  0.00  0.00  0.00 -1.00  0.00 -0.50  0.00  0.00
+ 213 163  0.00 -1.00  0.00  1.00  1.00  1.00 -1.00  0.00  0.00 -0.50  0.00  0.00
+ 214 308  0.00 -1.00  0.00  0.00  0.00 -1.00  1.00  1.00  1.00 -0.50  0.00  0.00
+ 215 215  1.00  1.00  1.00  0.00 -1.00  0.00  0.00  0.00 -1.00 -0.50  0.00  0.00
+ 216 312 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00  0.00 -1.00 -0.50  0.00  0.00
+ 217 217 -1.00 -0.00 -0.00  0.00 -1.00  0.00  0.00  0.00 -1.00 -0.50  0.00  0.00
+ 218 170  0.00 -1.00  0.00 -1.00  0.00  0.00  1.00  1.00  1.00 -0.50  0.00  0.00
+ 219 219  1.00  1.00  1.00  0.00  0.00 -1.00  0.00 -1.00  0.00 -0.50  0.00  0.00
+ 220 172  0.00  0.00 -1.00  1.00  1.00  1.00 -1.00  0.00  0.00 -0.50  0.00  0.00
+ 221  78  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00 -1.00  0.00 -0.50  0.00  0.00
+ 222 125  0.00 -1.00  0.00  0.00  0.00 -1.00 -1.00  0.00  0.00 -0.50  0.00  0.00
+ 223 320 -1.00 -0.00 -0.00  0.00  0.00 -1.00  1.00  1.00  1.00 -0.50  0.00  0.00
+ 224 271 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00 -1.00  0.00 -0.50  0.00  0.00
+ 225  82  1.00  1.00  1.00  0.00 -1.00  0.00 -1.00  0.00  0.00 -0.50  0.00  0.00
+ 226 273  0.00  0.00 -1.00  0.00 -1.00  0.00  1.00  1.00  1.00 -0.50  0.00  0.00
+ 227 324  0.00 -1.00  0.00  1.00  1.00  1.00  0.00  0.00 -1.00 -0.50  0.00  0.00
+ 228 131  1.00  1.00  1.00 -1.00  0.00  0.00  0.00  0.00 -1.00 -0.50  0.00  0.00
+ 229 133  0.00  1.00 -0.00  1.00  0.00  0.00  0.00  0.00  1.00 -0.50  0.00  0.00
+ 230 278  1.00  0.00  0.00  0.00  1.00  0.00 -1.00 -1.00 -1.00 -0.50  0.00  0.00
+ 231 280  0.00 -0.00  1.00 -1.00 -1.00 -1.00  0.00  1.00  0.00 -0.50  0.00  0.00
+ 232 135 -1.00 -1.00 -1.00  0.00  0.00  1.00  1.00  0.00  0.00 -0.50  0.00  0.00
+ 233 233  1.00  0.00  0.00  0.00  0.00  1.00  0.00  1.00  0.00 -0.50  0.00  0.00
+ 234  90  0.00 -0.00  1.00  0.00  1.00  0.00  1.00  0.00  0.00 -0.50  0.00  0.00
+ 235 189  0.00 -0.00  1.00  1.00  0.00  0.00 -1.00 -1.00 -1.00 -0.50  0.00  0.00
+ 236  94 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  1.00  0.00 -0.50  0.00  0.00
+ 237 187  0.00  1.00 -0.00 -1.00 -1.00 -1.00  1.00  0.00  0.00 -0.50  0.00  0.00
+ 238 332  0.00  1.00 -0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00 -0.50  0.00  0.00
+ 239 239 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00  0.00  1.00 -0.50  0.00  0.00
+ 240 336  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00 -0.50  0.00  0.00
+ 241 241  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00 -0.50 -0.00 -0.50
+ 242  98  0.00  1.00 -0.00  1.00  0.00  0.00 -1.00 -1.00 -1.00 -0.50 -0.00 -0.50
+ 243  99 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00  1.00  0.00 -0.50 -0.00 -0.50
+ 244 244  0.00 -0.00  1.00 -1.00 -1.00 -1.00  1.00  0.00  0.00 -0.50 -0.00 -0.50
+ 245 150  0.00 -0.00  1.00  1.00  0.00  0.00  0.00  1.00  0.00 -0.50 -0.00 -0.50
+ 246 293  0.00  1.00 -0.00  0.00  0.00  1.00  1.00  0.00  0.00 -0.50 -0.00 -0.50
+ 247 200  1.00  0.00  0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00 -0.50 -0.00 -0.50
+ 248 295  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  1.00  0.00 -0.50 -0.00 -0.50
+ 249 202 -1.00 -1.00 -1.00  0.00  1.00  0.00  1.00  0.00  0.00 -0.50 -0.00 -0.50
+ 250  57  0.00 -0.00  1.00  0.00  1.00  0.00 -1.00 -1.00 -1.00 -0.50 -0.00 -0.50
+ 251 156  0.00  1.00 -0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00 -0.50 -0.00 -0.50
+ 252  59 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00  1.00 -0.50 -0.00 -0.50
+ 253 157  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -1.00 -0.50 -0.00 -0.50
+ 254 206 -1.00 -0.00 -0.00  0.00 -1.00  0.00  1.00  1.00  1.00 -0.50 -0.00 -0.50
+ 255 160  0.00  0.00 -1.00  1.00  1.00  1.00  0.00 -1.00  0.00 -0.50 -0.00 -0.50
+ 256 207  1.00  1.00  1.00  0.00  0.00 -1.00 -1.00  0.00  0.00 -0.50 -0.00 -0.50
+ 257 305 -1.00 -0.00 -0.00  0.00  0.00 -1.00  0.00 -1.00  0.00 -0.50 -0.00 -0.50
+ 258 258  0.00  0.00 -1.00  0.00 -1.00  0.00 -1.00  0.00  0.00 -0.50 -0.00 -0.50
+ 259  69  0.00  0.00 -1.00 -1.00  0.00  0.00  1.00  1.00  1.00 -0.50 -0.00 -0.50
+ 260 118  1.00  1.00  1.00 -1.00  0.00  0.00  0.00 -1.00  0.00 -0.50 -0.00 -0.50
+ 261 307  0.00 -1.00  0.00  1.00  1.00  1.00 -1.00  0.00  0.00 -0.50 -0.00 -0.50
+ 262 116  0.00 -1.00  0.00  0.00  0.00 -1.00  1.00  1.00  1.00 -0.50 -0.00 -0.50
+ 263  71  1.00  1.00  1.00  0.00 -1.00  0.00  0.00  0.00 -1.00 -0.50 -0.00 -0.50
+ 264 264 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00  0.00 -1.00 -0.50 -0.00 -0.50
+ 265 265 -1.00 -0.00 -0.00  0.00 -1.00  0.00  0.00  0.00 -1.00 -0.50 -0.00 -0.50
+ 266 122  0.00 -1.00  0.00 -1.00  0.00  0.00  1.00  1.00  1.00 -0.50 -0.00 -0.50
+ 267 123  1.00  1.00  1.00  0.00  0.00 -1.00  0.00 -1.00  0.00 -0.50 -0.00 -0.50
+ 268 268  0.00  0.00 -1.00  1.00  1.00  1.00 -1.00  0.00  0.00 -0.50 -0.00 -0.50
+ 269 174  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00 -1.00  0.00 -0.50 -0.00 -0.50
+ 270 317  0.00 -1.00  0.00  0.00  0.00 -1.00 -1.00  0.00  0.00 -0.50 -0.00 -0.50
+ 271 224 -1.00 -0.00 -0.00  0.00  0.00 -1.00  1.00  1.00  1.00 -0.50 -0.00 -0.50
+ 272 319 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00 -1.00  0.00 -0.50 -0.00 -0.50
+ 273 226  1.00  1.00  1.00  0.00 -1.00  0.00 -1.00  0.00  0.00 -0.50 -0.00 -0.50
+ 274  81  0.00  0.00 -1.00  0.00 -1.00  0.00  1.00  1.00  1.00 -0.50 -0.00 -0.50
+ 275 180  0.00 -1.00  0.00  1.00  1.00  1.00  0.00  0.00 -1.00 -0.50 -0.00 -0.50
+ 276  83  1.00  1.00  1.00 -1.00  0.00  0.00  0.00  0.00 -1.00 -0.50 -0.00 -0.50
+ 277 181  0.00  1.00 -0.00  1.00  0.00  0.00  0.00  0.00  1.00 -0.50 -0.00 -0.50
+ 278 230  1.00  0.00  0.00  0.00  1.00  0.00 -1.00 -1.00 -1.00 -0.50 -0.00 -0.50
+ 279 184  0.00 -0.00  1.00 -1.00 -1.00 -1.00  0.00  1.00  0.00 -0.50 -0.00 -0.50
+ 280 231 -1.00 -1.00 -1.00  0.00  0.00  1.00  1.00  0.00  0.00 -0.50 -0.00 -0.50
+ 281 329  1.00  0.00  0.00  0.00  0.00  1.00  0.00  1.00  0.00 -0.50 -0.00 -0.50
+ 282 282  0.00 -0.00  1.00  0.00  1.00  0.00  1.00  0.00  0.00 -0.50 -0.00 -0.50
+ 283  93  0.00 -0.00  1.00  1.00  0.00  0.00 -1.00 -1.00 -1.00 -0.50 -0.00 -0.50
+ 284 142 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  1.00  0.00 -0.50 -0.00 -0.50
+ 285 331  0.00  1.00 -0.00 -1.00 -1.00 -1.00  1.00  0.00  0.00 -0.50 -0.00 -0.50
+ 286 140  0.00  1.00 -0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00 -0.50 -0.00 -0.50
+ 287  95 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00  0.00  1.00 -0.50 -0.00 -0.50
+ 288 288  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00 -0.50 -0.00 -0.50
+ 289 289  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00 -0.50 -0.50  0.00
+ 290 290  0.00  1.00 -0.00  1.00  0.00  0.00 -1.00 -1.00 -1.00 -0.50 -0.50  0.00
+ 291  51 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00  1.00  0.00 -0.50 -0.50  0.00
+ 292  52  0.00 -0.00  1.00 -1.00 -1.00 -1.00  1.00  0.00  0.00 -0.50 -0.50  0.00
+ 293 246  0.00 -0.00  1.00  1.00  0.00  0.00  0.00  1.00  0.00 -0.50 -0.50  0.00
+ 294 149  0.00  1.00 -0.00  0.00  0.00  1.00  1.00  0.00  0.00 -0.50 -0.50  0.00
+ 295 248  1.00  0.00  0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00 -0.50 -0.50  0.00
+ 296 199  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  1.00  0.00 -0.50 -0.50  0.00
+ 297 106 -1.00 -1.00 -1.00  0.00  1.00  0.00  1.00  0.00  0.00 -0.50 -0.50  0.00
+ 298 153  0.00 -0.00  1.00  0.00  1.00  0.00 -1.00 -1.00 -1.00 -0.50 -0.50  0.00
+ 299 108  0.00  1.00 -0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00 -0.50 -0.50  0.00
+ 300 203 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00  1.00 -0.50 -0.50  0.00
+ 301 301  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -1.00 -0.50 -0.50  0.00
+ 302 302 -1.00 -0.00 -0.00  0.00 -1.00  0.00  1.00  1.00  1.00 -0.50 -0.50  0.00
+ 303  64  0.00  0.00 -1.00  1.00  1.00  1.00  0.00 -1.00  0.00 -0.50 -0.50  0.00
+ 304  63  1.00  1.00  1.00  0.00  0.00 -1.00 -1.00  0.00  0.00 -0.50 -0.50  0.00
+ 305 257 -1.00 -0.00 -0.00  0.00  0.00 -1.00  0.00 -1.00  0.00 -0.50 -0.50  0.00
+ 306 162  0.00  0.00 -1.00  0.00 -1.00  0.00 -1.00  0.00  0.00 -0.50 -0.50  0.00
+ 307 261  0.00  0.00 -1.00 -1.00  0.00  0.00  1.00  1.00  1.00 -0.50 -0.50  0.00
+ 308 214  1.00  1.00  1.00 -1.00  0.00  0.00  0.00 -1.00  0.00 -0.50 -0.50  0.00
+ 309 115  0.00 -1.00  0.00  1.00  1.00  1.00 -1.00  0.00  0.00 -0.50 -0.50  0.00
+ 310 164  0.00 -1.00  0.00  0.00  0.00 -1.00  1.00  1.00  1.00 -0.50 -0.50  0.00
+ 311 119  1.00  1.00  1.00  0.00 -1.00  0.00  0.00  0.00 -1.00 -0.50 -0.50  0.00
+ 312 216 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00  0.00 -1.00 -0.50 -0.50  0.00
+ 313 313 -1.00 -0.00 -0.00  0.00 -1.00  0.00  0.00  0.00 -1.00 -0.50 -0.50  0.00
+ 314 314  0.00 -1.00  0.00 -1.00  0.00  0.00  1.00  1.00  1.00 -0.50 -0.50  0.00
+ 315  75  1.00  1.00  1.00  0.00  0.00 -1.00  0.00 -1.00  0.00 -0.50 -0.50  0.00
+ 316  76  0.00  0.00 -1.00  1.00  1.00  1.00 -1.00  0.00  0.00 -0.50 -0.50  0.00
+ 317 270  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00 -1.00  0.00 -0.50 -0.50  0.00
+ 318 173  0.00 -1.00  0.00  0.00  0.00 -1.00 -1.00  0.00  0.00 -0.50 -0.50  0.00
+ 319 272 -1.00 -0.00 -0.00  0.00  0.00 -1.00  1.00  1.00  1.00 -0.50 -0.50  0.00
+ 320 223 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00 -1.00  0.00 -0.50 -0.50  0.00
+ 321 130  1.00  1.00  1.00  0.00 -1.00  0.00 -1.00  0.00  0.00 -0.50 -0.50  0.00
+ 322 177  0.00  0.00 -1.00  0.00 -1.00  0.00  1.00  1.00  1.00 -0.50 -0.50  0.00
+ 323 132  0.00 -1.00  0.00  1.00  1.00  1.00  0.00  0.00 -1.00 -0.50 -0.50  0.00
+ 324 227  1.00  1.00  1.00 -1.00  0.00  0.00  0.00  0.00 -1.00 -0.50 -0.50  0.00
+ 325 325  0.00  1.00 -0.00  1.00  0.00  0.00  0.00  0.00  1.00 -0.50 -0.50  0.00
+ 326 326  1.00  0.00  0.00  0.00  1.00  0.00 -1.00 -1.00 -1.00 -0.50 -0.50  0.00
+ 327  88  0.00 -0.00  1.00 -1.00 -1.00 -1.00  0.00  1.00  0.00 -0.50 -0.50  0.00
+ 328  87 -1.00 -1.00 -1.00  0.00  0.00  1.00  1.00  0.00  0.00 -0.50 -0.50  0.00
+ 329 281  1.00  0.00  0.00  0.00  0.00  1.00  0.00  1.00  0.00 -0.50 -0.50  0.00
+ 330 186  0.00 -0.00  1.00  0.00  1.00  0.00  1.00  0.00  0.00 -0.50 -0.50  0.00
+ 331 285  0.00 -0.00  1.00  1.00  0.00  0.00 -1.00 -1.00 -1.00 -0.50 -0.50  0.00
+ 332 238 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  1.00  0.00 -0.50 -0.50  0.00
+ 333 139  0.00  1.00 -0.00 -1.00 -1.00 -1.00  1.00  0.00  0.00 -0.50 -0.50  0.00
+ 334 188  0.00  1.00 -0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00 -0.50 -0.50  0.00
+ 335 143 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00  0.00  1.00 -0.50 -0.50  0.00
+ 336 240  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00 -0.50 -0.50  0.00
+ 337 337  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00 -0.50 -0.50 -0.50
+ 338 338  0.00  1.00 -0.00  1.00  0.00  0.00 -1.00 -1.00 -1.00 -0.50 -0.50 -0.50
+ 339 339 -1.00 -1.00 -1.00  0.00  0.00  1.00  0.00  1.00  0.00 -0.50 -0.50 -0.50
+ 340 340  0.00 -0.00  1.00 -1.00 -1.00 -1.00  1.00  0.00  0.00 -0.50 -0.50 -0.50
+ 341 342  0.00 -0.00  1.00  1.00  0.00  0.00  0.00  1.00  0.00 -0.50 -0.50 -0.50
+ 342 341  0.00  1.00 -0.00  0.00  0.00  1.00  1.00  0.00  0.00 -0.50 -0.50 -0.50
+ 343 344  1.00  0.00  0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00 -0.50 -0.50 -0.50
+ 344 343  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  1.00  0.00 -0.50 -0.50 -0.50
+ 345 346 -1.00 -1.00 -1.00  0.00  1.00  0.00  1.00  0.00  0.00 -0.50 -0.50 -0.50
+ 346 345  0.00 -0.00  1.00  0.00  1.00  0.00 -1.00 -1.00 -1.00 -0.50 -0.50 -0.50
+ 347 348  0.00  1.00 -0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00 -0.50 -0.50 -0.50
+ 348 347 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00  1.00 -0.50 -0.50 -0.50
+ 349 349  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -1.00 -0.50 -0.50 -0.50
+ 350 350 -1.00 -0.00 -0.00  0.00 -1.00  0.00  1.00  1.00  1.00 -0.50 -0.50 -0.50
+ 351 352  0.00  0.00 -1.00  1.00  1.00  1.00  0.00 -1.00  0.00 -0.50 -0.50 -0.50
+ 352 351  1.00  1.00  1.00  0.00  0.00 -1.00 -1.00  0.00  0.00 -0.50 -0.50 -0.50
+ 353 353 -1.00 -0.00 -0.00  0.00  0.00 -1.00  0.00 -1.00  0.00 -0.50 -0.50 -0.50
+ 354 354  0.00  0.00 -1.00  0.00 -1.00  0.00 -1.00  0.00  0.00 -0.50 -0.50 -0.50
+ 355 357  0.00  0.00 -1.00 -1.00  0.00  0.00  1.00  1.00  1.00 -0.50 -0.50 -0.50
+ 356 358  1.00  1.00  1.00 -1.00  0.00  0.00  0.00 -1.00  0.00 -0.50 -0.50 -0.50
+ 357 355  0.00 -1.00  0.00  1.00  1.00  1.00 -1.00  0.00  0.00 -0.50 -0.50 -0.50
+ 358 356  0.00 -1.00  0.00  0.00  0.00 -1.00  1.00  1.00  1.00 -0.50 -0.50 -0.50
+ 359 359  1.00  1.00  1.00  0.00 -1.00  0.00  0.00  0.00 -1.00 -0.50 -0.50 -0.50
+ 360 360 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00  0.00 -1.00 -0.50 -0.50 -0.50
+ 361 361 -1.00 -0.00 -0.00  0.00 -1.00  0.00  0.00  0.00 -1.00 -0.50 -0.50 -0.50
+ 362 362  0.00 -1.00  0.00 -1.00  0.00  0.00  1.00  1.00  1.00 -0.50 -0.50 -0.50
+ 363 363  1.00  1.00  1.00  0.00  0.00 -1.00  0.00 -1.00  0.00 -0.50 -0.50 -0.50
+ 364 364  0.00  0.00 -1.00  1.00  1.00  1.00 -1.00  0.00  0.00 -0.50 -0.50 -0.50
+ 365 366  0.00  0.00 -1.00 -1.00  0.00  0.00  0.00 -1.00  0.00 -0.50 -0.50 -0.50
+ 366 365  0.00 -1.00  0.00  0.00  0.00 -1.00 -1.00  0.00  0.00 -0.50 -0.50 -0.50
+ 367 368 -1.00 -0.00 -0.00  0.00  0.00 -1.00  1.00  1.00  1.00 -0.50 -0.50 -0.50
+ 368 367 -1.00 -0.00 -0.00  1.00  1.00  1.00  0.00 -1.00  0.00 -0.50 -0.50 -0.50
+ 369 370  1.00  1.00  1.00  0.00 -1.00  0.00 -1.00  0.00  0.00 -0.50 -0.50 -0.50
+ 370 369  0.00  0.00 -1.00  0.00 -1.00  0.00  1.00  1.00  1.00 -0.50 -0.50 -0.50
+ 371 372  0.00 -1.00  0.00  1.00  1.00  1.00  0.00  0.00 -1.00 -0.50 -0.50 -0.50
+ 372 371  1.00  1.00  1.00 -1.00  0.00  0.00  0.00  0.00 -1.00 -0.50 -0.50 -0.50
+ 373 373  0.00  1.00 -0.00  1.00  0.00  0.00  0.00  0.00  1.00 -0.50 -0.50 -0.50
+ 374 374  1.00  0.00  0.00  0.00  1.00  0.00 -1.00 -1.00 -1.00 -0.50 -0.50 -0.50
+ 375 376  0.00 -0.00  1.00 -1.00 -1.00 -1.00  0.00  1.00  0.00 -0.50 -0.50 -0.50
+ 376 375 -1.00 -1.00 -1.00  0.00  0.00  1.00  1.00  0.00  0.00 -0.50 -0.50 -0.50
+ 377 377  1.00  0.00  0.00  0.00  0.00  1.00  0.00  1.00  0.00 -0.50 -0.50 -0.50
+ 378 378  0.00 -0.00  1.00  0.00  1.00  0.00  1.00  0.00  0.00 -0.50 -0.50 -0.50
+ 379 381  0.00 -0.00  1.00  1.00  0.00  0.00 -1.00 -1.00 -1.00 -0.50 -0.50 -0.50
+ 380 382 -1.00 -1.00 -1.00  1.00  0.00  0.00  0.00  1.00  0.00 -0.50 -0.50 -0.50
+ 381 379  0.00  1.00 -0.00 -1.00 -1.00 -1.00  1.00  0.00  0.00 -0.50 -0.50 -0.50
+ 382 380  0.00  1.00 -0.00  0.00  0.00  1.00 -1.00 -1.00 -1.00 -0.50 -0.50 -0.50
+ 383 383 -1.00 -1.00 -1.00  0.00  1.00  0.00  0.00  0.00  1.00 -0.50 -0.50 -0.50
+ 384 384  1.00  0.00  0.00 -1.00 -1.00 -1.00  0.00  0.00  1.00 -0.50 -0.50 -0.50
+
+ DIRECT LATTICE VECTORS CARTESIAN COMPONENTS (ANGSTROM)
+          X                    Y                    Z
+   0.000000000000E+00   0.483817213000E+01   0.483817213000E+01
+   0.483817213000E+01   0.000000000000E+00   0.483817213000E+01
+   0.483817213000E+01   0.483817213000E+01   0.000000000000E+00
+
+
+ CARTESIAN COORDINATES - PRIMITIVE CELL
+ *******************************************************************************
+ *      ATOM          X(ANGSTROM)         Y(ANGSTROM)         Z(ANGSTROM)
+ *******************************************************************************
+    1    20 CA    0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+    2    20 CA   -2.419086065000E+00 -2.419086065000E+00  0.000000000000E+00
+    3    20 CA   -2.419086065000E+00  0.000000000000E+00 -2.419086065000E+00
+    4    20 CA   -4.838172130000E+00 -2.419086065000E+00 -2.419086065000E+00
+    5    20 CA    0.000000000000E+00 -2.419086065000E+00 -2.419086065000E+00
+    6    20 CA   -2.419086065000E+00 -4.838172130000E+00 -2.419086065000E+00
+    7    20 CA   -2.419086065000E+00 -2.419086065000E+00 -4.838172130000E+00
+    8    20 CA   -4.838172130000E+00 -4.838172130000E+00 -4.838172130000E+00
+    9     8 O     2.419086065000E+00  2.419086065000E+00  2.419086065000E+00
+   10     8 O     1.332267629550E-15  1.110223024625E-15  2.419086065000E+00
+   11     8 O     1.554312234475E-15  2.419086065000E+00  1.110223024625E-15
+   12     8 O    -2.419086065000E+00  4.440892098501E-16  4.440892098501E-16
+   13     8 O     2.419086065000E+00  4.440892098501E-16  2.220446049250E-16
+   14     8 O     8.881784197001E-16 -2.419086065000E+00  4.440892098501E-16
+   15     8 O     8.881784197001E-16  4.440892098501E-16 -2.419086065000E+00
+   16     8 O    -2.419086065000E+00 -2.419086065000E+00 -2.419086065000E+00
+
+
+ *********************************************************************
+ * ***************************************************************** *
+ * *                                                               * *
+ * *       TREATMENT OF DISORDERED SYSTEMS / SOLID SOLUTIONS       * *
+ * *                   USING GROUP ACTION THEORY                   * *
+ * *                                                               * *
+ * *  1. INTERACTION LIST (OPTIONAL)                               * *
+ * *  2. CONFIGURATION ANALYSIS                                    * *
+ * *                                                               * *
+ * *  S. Mustapha, Ph. D'Arco, M. De La Pierre, Y. Noel,           * *
+ * *  M. Ferrabone, R. Dovesi,                                     * *
+ * *  On the use of symmetry in configurational analysis for the   * *
+ * *  simulation of disordered solids                              * *
+ * *  J. Phys.: Condens. Matter 25, 105401 (2013)                  * *
+ * *                                                               * *
+ * ***************************************************************** *
+ *********************************************************************
+
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX    72.41113 BOHR
+
+ ===============================================================================
+                             CONFIGURATION ANALYSIS
+
+  NUMBER OF SUBSTITUTING SPECIES :         2
+
+  TOTAL NUMBER OF ACTIVE SITES :           8
+  NUMBER OF SYMMETRY IRREDUCIBLE
+  ACTIVE SITES :                           1
+  LABELS OF SYMMETRY IRREDUCIBLE
+  ACTIVE SITES IN UNIT CELL :              1
+
+  TOTAL NUMBER OF SYMMETRY INDEPENDENT
+  CLASSES (POLYA'S THEOREM) :             16
+  NUMBER OF COMPOSITIONS :                 9
+  COMPOSITION   N. OF CA ATOMS   N. OF CLASSES
+       100.00                8               1
+        87.50                7               1
+        75.00                6               2
+        62.50                5               2
+        50.00                4               4
+        37.50                3               2
+        25.00                2               2
+        12.50                1               1
+         0.00                0               1
+  COMPOSITIONS 100.00 AND 0.00 CORRESPOND TO PURE COMPOUNDS AND ARE ALSO CALLED
+  END MEMBERS
+ ===============================================================================
+ COMPOSITION  4 CA OVER  8       N. OF CLASSES :            4
+ ===============================================================================
+  CLASS :            1     MULTIPLICITY :   8     N. OF SYMM. OP. :  48
+  CA   5   6   7   8
+  ------------------                                                            
+  XX   1   2   3   4 
+   WARNING : THIS CONFIG CAN BE OBTAINED WITH A SMALLER CELL
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+  CLASS :            2     MULTIPLICITY :   8     N. OF SYMM. OP. :  48
+  CA   4   6   7   8
+  ------------------                                                            
+  XX   1   2   3   5 
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+  CLASS :            3     MULTIPLICITY :  48     N. OF SYMM. OP. :   8
+  CA   4   5   7   8
+  ------------------                                                            
+  XX   1   2   3   6 
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+  CLASS :            4     MULTIPLICITY :   6     N. OF SYMM. OP. :  64
+  CA   3   4   5   6
+  ------------------                                                            
+  XX   1   2   7   8 
+   WARNING : THIS CONFIG CAN BE OBTAINED WITH A SMALLER CELL
+ ===============================================================================
+ INFORMATION **** CONFCOUNT **** CALCULATION COMPLETE
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.12 TCPU        0.09
+ EEEEEEEEEE TERMINATION  DATE 01 02 2023 TIME 11:15:54.2
+Wed  1 Feb 2023 11:15:54 GMT
+Contents of temporary directory:
+total 192
+-rw-r--r--  1 brunocamino  admin  94971  1 Feb 11:15 fort.34
+SCF abnormal end - no wf written in fort.9
+geometry input file fort.34 saved as /Users/brunocamino/Desktop/Imperial/cmsg_icl/solid-solutions/data/crystal/cao_confcount_2.gui
+temporary directory /Users/brunocamino/crystal/tmp removed

@@ -1,0 +1,7 @@
+date Mon 26 Dec 2022 12:18:47 GMT
+hostname MacBook-Pro-8
+system Darwin MacBook-Pro-8 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:20:05 PDT 2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T8101 arm64
+user brunocamino
+output data in /Users/brunocamino/Desktop/Imperial/cmsg_icl/solid-solutions/data/crystal/cao_confrand.d12.out
+crystal executable in /Users/brunocamino/crystal
+input data in /Users/brunocamino/Desktop/Imperial/cmsg_icl/solid-solutions/data/crystal/cao_confrand.d12.d12 not found or empty

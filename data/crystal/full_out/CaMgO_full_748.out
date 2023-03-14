@@ -1,0 +1,350 @@
+date:                Sun Feb 12 15:13:34 GMT 2023
+hostname:            nid002920
+system:              Linux nid002920 4.12.14-197.78_9.1.64-cray_shasta_c #1 SMP Wed Aug 25 14:56:40 UTC 2021 (4e2a900) x86_64 x86_64 x86_64 GNU/Linux
+user:                bcamino
+input:               /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/full_opt/CaMgO_full_748.d12
+output:              /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/full_opt/CaMgO_full_748.out
+executable script:   /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm_multi
+executable:          Pcrystal
+Command:             srun --nodes=1 --ntasks=128 --hint=nomultithread --distribution=block:block Pcrystal
+Slurm JobID:         
+temporary directory: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/full_opt/tmp_CaMgO_full_748_      
+input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/full_opt/CaMgO_full_748.d12
+Cell opt
+EXTERNAL
+EXTPRT
+OPTGEOM
+FULLOPTG
+END
+END
+20 11
+0 0 8 2.0 1.0
+  172517.326850      0.00023317502546
+  25861.5192750      0.00180765219800
+  5885.66186680      0.00939438442550
+  1665.97300310      0.03810840900900
+  542.367181480      0.12331203853000
+  194.578034920      0.29004470954000
+  75.3035976360      0.40587151157000
+  29.5740625890      0.20398410743000
+0 0 4 2.0 1.0
+  191.200746600     -0.02441975975900
+  58.8402998830     -0.11547027448000
+  8.96425408450      0.56356636717000
+  3.68569605410      0.56709682704000
+0 0 2 2.0 1.0
+  5.24642897260     -0.22825334325000
+  1.34862621528      0.72625219172000
+0 0 1 2.0 1.0
+  0.70710626000      1.00000000000000
+0 0 1 0.0 1.0
+  0.30027232000      1.00000000000000
+0 0 1 0.0 1.0
+  0.14014616000      1.00000000000000
+0 2 6 6.0 1.0
+  836.972620580      0.00252583460920
+  197.930401420      0.02007650668600
+  63.1355580540      0.09130298736600
+  23.2826871700      0.25247029915000
+  9.11764449320      0.39426326344000
+  3.63361201390      0.23011559492000
+0 2 3 6.0 1.0
+  13.4941631200     -0.02649502195100
+  1.81392597900      0.55088108210000
+  0.71981826006      1.02806166200000
+0 2 1 0.0 1.0
+  0.36108303000      1.00000000000000
+0 2 1 0.0 1.0
+  0.15029529000      1.00000000000000
+0 3 1 0.0 1.0
+  0.98864471000      1.00000000000000
+12 9
+0 0 7 2.0 1.0
+  31438.3495550      0.00060912311326
+  4715.51533540      0.00470661964650
+  1073.16292470      0.02413582065700
+  303.572387680      0.09362895983400
+  98.6262510420      0.26646742093000
+  34.9438084170      0.47890929917000
+  12.8597851990      0.33698490286000
+0 0 3 2.0 1.0
+  64.8769130040      0.01918088930700
+  19.7255207770      0.09091370439200
+  2.89518043390     -0.39563756125000
+0 0 2 2.0 1.0
+  1.19604547100      1.68276033730000
+  0.54329451156      0.52141091954000
+0 0 1 0.0 1.0
+  0.83471188300      1.00000000000000
+0 0 1 0.0 1.0
+  0.14506887000      1.00000000000000
+0 2 5 6.0 1.0
+  179.871896120      0.00537995490180
+  42.1200693760      0.03931801409800
+  13.1205030320      0.15740129476000
+  4.62575036090      0.35919094128000
+  1.66952110160      0.45533379310000
+0 2 1 0.0 1.0
+  0.56631001000      1.00000000000000
+0 2 1 0.0 1.0
+  0.18813966000      1.00000000000000
+0 3 1 0.0 1.0
+  0.29355357000      1.00000000000000
+8 8
+0 0 6 2.0 1.0
+  27032.382631      0.00021726302465
+  4052.3871392      0.00168386621990
+  922.32722710      0.00873956162650
+  261.24070989      0.03523996880800
+  85.354641351      0.11153519115000
+  31.035035245      0.25588953961000
+0 0 2 2.0 1.0
+  12.260860728      0.39768730901000
+  4.9987076005      0.24627849430000
+0 0 1 0.0 1.0
+  1.0987136000      1.00000000000000
+0 0 1 0.0 1.0
+  0.3565870100      1.00000000000000
+0 2 4 4.0 1.0
+  63.274954801      0.0060685103418
+  14.627049379      0.0419125758240
+  4.4501223456      0.1615384108800
+  1.5275799647      0.3570695131100
+0 2 1 0.0 1.0
+  0.5489735000      1.0000000000000
+0 2 1 0.0 1.0
+  0.1858671100      1.0000000000000
+0 3 1 0.0 1.0
+  0.4534621300      1.0000000000000
+99 0
+END
+DFT
+B3LYP
+END
+SHRINK
+4 8
+TOLINTEG
+7 7 7 7 14
+TOLDEE
+8 
+FMIXING
+70
+EXCHSIZE
+6500000
+BIPOSIZE
+7000000
+GUESSP
+ENDSCF
+input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/full_opt/CaMgO_full_748.gui
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/full_opt/CaMgO_full_748.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/full_opt/tmp_CaMgO_full_748_/fort.20
+         128 PROCESSORS WORKING
+
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL17                                     *
+ *                      public : 1.0.2 - March 1st, 2018 STFC/Archer2 build    *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(2,6), I.J. BUSH(7), Ph. D'ARCO(8),               *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11)                                            *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18)                                                          *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+ * (2) COMPUTATIONAL SCIENCE & ENGINEERING DEPARTMENT - STFC DARESBURY (UK)    *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) OXFORD E-RESEARCH CENTRE - OXFORD (UK)                                  *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 12 02 2023 TIME 15:13:42.0
+ Cell opt                                                                        
+
+ GEOMETRY INPUT FROM EXTERNAL FILE (FORTRAN UNIT 34)
+ 3D - CRYSTAL 
+
+ ERROR **** EXTERNAL ****  END OF DATA IN INPUT FILE
+MPICH ERROR [Rank 99] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 99 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 99
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 99
+MPICH ERROR [Rank 115] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 115 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 115
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 115
+MPICH ERROR [Rank 118] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 118 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 118
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 118
+MPICH ERROR [Rank 8] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 8 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+MPICH ERROR [Rank 23] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 23 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23
+MPICH ERROR [Rank 30] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 30 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 30
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 30
+MPICH ERROR [Rank 34] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 34 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 34
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 34
+MPICH ERROR [Rank 42] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 42 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 42
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 42
+MPICH ERROR [Rank 68] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 68 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 68
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 68
+MPICH ERROR [Rank 73] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 73 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 73
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 73
+MPICH ERROR [Rank 74] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 74 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 74
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 74
+MPICH ERROR [Rank 97] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 97 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 97
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 97
+MPICH ERROR [Rank 103] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 103 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 103
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 103
+MPICH ERROR [Rank 107] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 107 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 107
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 107
+MPICH ERROR [Rank 116] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 116 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 116
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 116
+MPICH ERROR [Rank 11] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 11 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11
+MPICH ERROR [Rank 24] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 24 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 24
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 24
+MPICH ERROR [Rank 46] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 46 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 46
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 46
+MPICH ERROR [Rank 125] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 125 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 125
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 125
+MPICH ERROR [Rank 9] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 9 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9
+MPICH ERROR [Rank 100] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 100 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 100
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 100
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT ERR         TELAPSE        6.58 TCPU        2.70
+MPICH ERROR [Rank 0] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+MPICH ERROR [Rank 37] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 37 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 37
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 37
+MPICH ERROR [Rank 72] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 72 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 72
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 72
+MPICH ERROR [Rank 95] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 95 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 95
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 95
+MPICH ERROR [Rank 98] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 98 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 98
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 98
+MPICH ERROR [Rank 119] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 119 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 119
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 119
+MPICH ERROR [Rank 15] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 15 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 15
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 15
+MPICH ERROR [Rank 39] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 39 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 39
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 39
+MPICH ERROR [Rank 40] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 40 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 40
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 40
+MPICH ERROR [Rank 77] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 77 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 77
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 77
+MPICH ERROR [Rank 101] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 101 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 101
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 101
+MPICH ERROR [Rank 48] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 48 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 48
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 48
+MPICH ERROR [Rank 66] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 66 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 66
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 66
+MPICH ERROR [Rank 47] [job id 3074786.78] [Sun Feb 12 15:13:44 2023] [nid003028] - Abort(1) (rank 47 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 47
+
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 47
+srun: error: nid003028: tasks 0,8-9,11,15,23-24,30,34,37,39-40,42,46-48,66,68,72-74,77,95,97-101,103,107,115-116,118-119,125: Exited with exit code 255
+srun: launch/slurm: _step_signal: Terminating StepId=3074786.78
+slurmstepd: error: *** STEP 3074786.78 ON nid003028 CANCELLED AT 2023-02-12T15:13:45 ***
+srun: error: nid003028: tasks 1-7,10,12-14,16-22,25-29,31-33,35-36,38,41,43-45,49-65,67,69-71,75-76,78-94,96,102,104-106,108-114,117,120-124,126-127: Terminated
+srun: Force Terminated StepId=3074786.78
+end_date Sun Feb 12 15:13:45 GMT 2023
+ 
+TEMPORARY          SAVED (in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/full_opt)
+binary wf (fort.9) is not written on this node
+fort.87            CaMgO_full_748.ERROR108      Feb 12 15:13
+fort.34            CaMgO_full_748.gui4027     Feb 12 15:13
+ 
+Disk usage:<du -m>
+16	/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/descriptors/full_opt/tmp_CaMgO_full_748_
+</du -m>
+Filesystem                                          1K-blocks          Used     Available Use% Mounted on
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 2008029597840 1537825711920  57% /mnt/lustre/a2fs-work2
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 2008029597840 1537825711920  57% /mnt/lustre/a2fs-work2
