@@ -1,0 +1,420 @@
+#!/bin/bash
+#SBATCH --nodes=2 
+#SBATCH --ntasks-per-node=128
+#SBATCH --cpus-per-task=1
+#SBATCH --time=24:00:00
+
+# Replace [budget code] below with your full project code
+#SBATCH --account=e05-gc-smw    
+#SBATCH --partition=standard
+#SBATCH --qos=standard
+#SBATCH --export=none
+
+module load epcc-job-env
+module load other-software
+module load crystal
+
+# Address the memory leak
+export FI_MR_CACHE_MAX_COUNT=0
+
+# Run calculations
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2000
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2000
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2001
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2001
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2002
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2002
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2003
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2003
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2004
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2004
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2005
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2005
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2006
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2006
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2007
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2007
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2008
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2008
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2009
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2009
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2010
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2010
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2011
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2011
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2012
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2012
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2013
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2013
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2014
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2014
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2015
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2015
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2016
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2016
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2017
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2017
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2018
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2018
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2019
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2019
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2020
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2020
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2021
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2021
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2022
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2022
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2023
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2023
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2024
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2024
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2025
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2025
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2026
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2026
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2027
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2027
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2028
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2028
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2029
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2029
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2030
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2030
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2031
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2031
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2032
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2032
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2033
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2033
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2034
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2034
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2035
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2035
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2036
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2036
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2037
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2037
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2038
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2038
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2039
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2039
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2040
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2040
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2041
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2041
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2042
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2042
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2043
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2043
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2044
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2044
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2045
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2045
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2046
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2046
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2047
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2047
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2048
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2048
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2049
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2049
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2050
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2050
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2051
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2051
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2052
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2052
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2053
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2053
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2054
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2054
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2055
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2055
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2056
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2056
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2057
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2057
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2058
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2058
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2059
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2059
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2060
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2060
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2061
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2061
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2062
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2062
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2063
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2063
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2064
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2064
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2065
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2065
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2066
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2066
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2067
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2067
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2068
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2068
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2069
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2069
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2070
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2070
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2071
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2071
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2072
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2072
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2073
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2073
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2074
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2074
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2075
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2075
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2076
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2076
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2077
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2077
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2078
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2078
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2079
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2079
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2080
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2080
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2081
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2081
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2082
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2082
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2083
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2083
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2084
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2084
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2085
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2085
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2086
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2086
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2087
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2087
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2088
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2088
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2089
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2089
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2090
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2090
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2091
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2091
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2092
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2092
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2093
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2093
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2094
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2094
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2095
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2095
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2096
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2096
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2097
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2097
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2098
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2098
+
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm CaMgO_sp_2099
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys CaMgO_sp_2099
+
+
