@@ -2,7 +2,7 @@
 
 # Slurm job options (job-name, compute nodes, job time)
 #SBATCH --time=12:00:00
-#SBATCH --nodes=11
+#SBATCH --nodes=10
 #SBATCH --ntasks-per-node=128
 #SBATCH --cpus-per-task=1
 
@@ -39,7 +39,5 @@ timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm_multi lts_optgeom_cell
 timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm_multi lts_optgeom_cell_159 lts_sp_159 &
 
 timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm_multi lts_optgeom_cell_3290 lts_sp_3290 &
-
-timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm_multi lts_optgeom_cell_3289 lts_sp_3289 &
 
 wait
